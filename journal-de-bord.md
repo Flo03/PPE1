@@ -7,7 +7,7 @@
 4. Vérification du retard de la version de ma machine par rapport à la version en ligne grâce aux commande `git fetch` pour mettre à jour les métadonnées et `git status` pour constater le retard  
 5. Mise à jour de la version de ma machine avec la commande `git pull`
 6. Entrée du journal de bord  
-##01/10/2022
+## 01/10/2022
 **Exercice : création d'une arborescence pour le contenu du Fichier.zip**  
 1. Création d'un dossier de travail intitulé exercice_tri-fichier dans lequel j'ai extrait le contenu du fichier avec la commande  `unzip Fichier.zip`  
 2. Observation du contenu : des fichiers .ann .txt .jpg .bmp .wav  
@@ -25,5 +25,5 @@
 14. Idem pour le dossier Kyoto/ mais avec la chaîne 'Kyoto'
 15. Le reste des fichiers fut déplacé au cas par cas. Idéalement, il faudrait renommer tous les fichiers contenu dans le dossiers img pour les uniformiser  
 16. Vérification de l'arborescence grâce à la commande `tree > exercice_tri-fichiers_arborescence.txt`  
-##02/10/2022  
+## 02/10/2022  
 1. Création d'un répertoire Exercices/Rangement-fichiers/ pour y mettre les résultats de l'exercice de rangement des fichiers contenus dans l'archive Fichiers.zip
