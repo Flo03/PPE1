@@ -27,3 +27,6 @@
 16. Vérification de l'arborescence grâce à la commande `tree > exercice_tri-fichiers_arborescence.txt`  
 ## 02/10/2022  
 1. Création d'un répertoire Exercices/Rangement-fichiers/ pour y mettre les résultats de l'exercice de rangement des fichiers contenus dans l'archive Fichiers.zip
+## 18/10/2022  
+1. Création de scripts pour faire l'exercice de scripts avec arguments sur les annotations en fonction de l'année.
+2. Travail de prise en main de git avec les différentes commandes vues en cours
