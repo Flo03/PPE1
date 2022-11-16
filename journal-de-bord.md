@@ -30,3 +30,6 @@
 ## 18/10/2022  
 1. Création de scripts pour faire l'exercice de scripts avec arguments sur les annotations en fonction de l'année.
 2. Travail de prise en main de git avec les différentes commandes vues en cours
+## 09/11/2022  
+1. Ajout du fichier `URL_jp.txt` dans le git du Projet
+2. Ajout de `index.html` dans mon PPE1
