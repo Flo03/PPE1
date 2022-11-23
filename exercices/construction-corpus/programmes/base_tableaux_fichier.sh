@@ -70,6 +70,11 @@ while read -r URL; do
 	echo "$dump" > dumps-text/$basename-$lineno.txt # récupération du contenu textuel de chaque url
 	
 	nbr_occurrence=$(echo "$dump" | egrep -o "$mot" | wc -w)
+	#contexte=$(echo "$dump" | egrep "。.*$mot.*。" | sed 's//')
+	
+	#lynx -dump -nolist -assume_charset=$charset -display_charset=$charset https://globalnewsview.org/archives/17803 | egrep -o "。.*フェミニズム.*。" | sed -s 's/\(.*\)フェミニズム/ \1 | フェミニズム/' #le \1 fait référence au premier jeu de parenthèse \(\)
+
+
 
 	echo "<tr><td>$lineno</td><td>$code</td><td><a href=\"$URL\">$URL</a></td><td>$charset</td><td>$nbr_occurrence</td></tr>" >> $fichier_tableau
 	echo -e "\t--------------------------------"
