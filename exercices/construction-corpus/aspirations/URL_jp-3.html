@@ -1,0 +1,617 @@
+<!doctype html>
+<html lang="ja">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#  article: http://ogp.me/ns/article#">
+<meta charset="UTF-8">
+<title>ニュース｜BIGLOBEニュース</title>
+<meta name="description" content="BIGLOBEニュースは、芸能ニュースや事件の速報を写真や動画でわかりやすくお伝えします。新聞社や雑誌の記事に加え、ネット炎上や動物の話題などをオリジナル記事でお届けします。">
+<meta name="keywords" content="ニュース,速報,芸能,事件,写真,画像,動画">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Refresh" content="10; URL=https://news.biglobe.ne.jp/">
+<meta property="og:title" content="ニュース｜BIGLOBEニュース">
+<meta property="og:description" content="BIGLOBEニュースは、芸能ニュースや事件の速報を写真や動画でわかりやすくお伝えします。新聞社や雑誌の記事に加え、ネット炎上や動物の話題などをオリジナル記事でお届けします。">
+<meta property="og:url" content="https://news.biglobe.ne.jp/">
+<meta property="og:image" content="https://news.biglobe.ne.jp/img/sbt/news_icon180.png" />
+<meta property="og:site_name" content="BIGLOBEニュース">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="ja_JP">
+<meta property="fb:app_id" content="1473288276265783">
+<meta name="google-site-verification" content="FVHyzhjnV51zi5gfDx0QRCVzDkeD5aR780j7uTWux-k">
+<meta name="twitter:site" content="@shunkannews">
+<meta name="twitter:creator" content="@shunkannews">
+<meta name="robots" content="max-image-preview:large">
+<link rel="shortcut icon" href="https://news.biglobe.ne.jp/favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="https://news.biglobe.ne.jp/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ニュース｜BIGLOBEニュース">
+<meta name="twitter:description" content="BIGLOBEニュースは、芸能ニュースや事件の速報を写真や動画でわかりやすくお伝えします。新聞社や雑誌の記事に加え、ネット炎上や動物の話題などをオリジナル記事でお届けします。">
+<meta name="twitter:image:src" content="https://news.biglobe.ne.jp/img/sbt/news_icon180.png" />
+<link rel="canonical" href="https://news.biglobe.ne.jp/">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/topics/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/entertainment/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/sports/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/domestic/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/international/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/economy/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/trend/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/it/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/topics/animal/index.rdf">
+<link rel="alternate" type="application/rss+xml" href="/rss/blnews.xml">
+<style>
+@charset "UTF-8";abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;vertical-align:baseline;background:0 0}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ddd;margin:.8rem 0;padding:0}img{vertical-align:top}input,select{vertical-align:middle}html{font-size:62.5%;font-size:calc(1em*.625)}body{color:#333;background:#fff;font-size:1.4rem;font-family:Meiryo,"Hiragino Kaku Gothic ProN",Arial,sans-serif;letter-spacing:.1rem}.b{font-weight:700}.nm{font-weight:400}.red{color:#e00}p{margin-bottom:1rem}.txt-l{text-align:left}.txt-c{text-align:center}.txt-r{text-align:right}.f18{font-size:1.8rem}.f16{font-size:1.6rem}.f14{font-size:1.4rem}.f12{font-size:1.2rem}.f10{font-size:1rem}.lh15{line-height:1.5}.f-bold{font-weight:700}.ind{text-indent:-1em;padding-left:1em}a:link{color:#2355a5;text-decoration:none}a:visited{color:#639;text-decoration:none}a:hover,a:hover div,a:hover span{text-decoration:underline}a:active{color:#e00;text-decoration:none}a:hover div.lazy,a:hover img{opacity:.8}.txt-link a:link,.txt-link a:visited,a.txt-link:link,a.txt-link:visited{text-decoration:underline}.txt-link a:hover,a.txt-link:hover{text-decoration:none}.cf:after{content:"";display:block;clear:both}select{vertical-align:middle}select::-ms-expand{display:none}.select-box{margin:0 auto}.select-box select{position:relative;width:100%;padding:.4rem;border:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:1.2rem}.select-box label{position:relative}.select-box label:after{content:'';width:.6rem;height:.6rem;border:0;border-top:solid .1rem #999;border-right:solid .1rem #999;-ms-transform:rotate(135deg);-webkit-transform:rotate(135deg);transform:rotate(135deg);position:absolute;top:55%;right:1.6rem;margin-top:-.4rem}.wrap{width:104.4rem;min-width:970px;margin:0 auto;position:relative}main{float:left;width:70.8rem;min-width:650px}#right-side{width:30rem;min-width:300px;float:right}#right-side-inner{width:30rem;min-width:300px}section{clear:both;border:1px solid #ddd;border-radius:.5rem;margin-bottom:1.2rem}section:after{content:"";display:block;clear:both}#right-side section{margin-bottom:3.6rem}h1{font-size:1.8rem}h2{background:#f4f4f4;border-bottom:1px solid #ddd;padding:1.2rem;position:relative}h2.top-logo{background:0 0;border-bottom:0;padding:0;position:unset}h2:after{content:"";display:block;clear:both}a.arrow,a.r-arrow{display:block;position:relative}a.r-arrow:after{content:'';width:.6rem;height:.6rem;border:0;border-top:solid .1rem #999;border-right:solid .1rem #999;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);position:absolute;top:55%;right:.2rem;margin-top:-.4rem}a.arrow{margin-left:2rem}a.arrow:before{content:'';width:.5rem;height:.5rem;border:0;border-top:solid .2rem #666;border-right:solid .2rem #666;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);position:absolute;top:45%;left:-1.8rem;margin-top:-.4rem;-webkit-transition-duration:.3s;-ms-transition-duration:.3s;transition-duration:.3s}section h2:first-child{border-radius:.5rem .5rem 0 0}#right-side h2{font-size:1.4rem}.bx{font-size:1.4rem;padding:1.2rem;letter-spacing:.1rem;position:relative}#right-side .bx+.bx{white-space:nowrap}.bx+.bx .more{margin-left:1.8rem}.bx+.bx .more:first-child{margin:0}.bx ul li{display:block;line-height:1.5;margin-bottom:.6rem;padding-left:2rem;position:relative}.bx ul li:last-child{margin-bottom:0}.bx ul li:before{content:'';width:.6rem;height:.6rem;background-color:#ccc;border-radius:1rem;left:.4rem;top:.5rem;position:absolute}.bx ul li.n-new:before{display:inline-block;left:0;top:.5rem;width:2rem;height:1.1rem;border-radius:0;background-position:-12.7rem -4.3rem;background-color:transparent}.fit-img a,.fit-img img{display:inline-block;width:100%}.inline-img{position:relative;top:-.3rem;margin:0 .5rem;vertical-align:text-bottom}#page-btn a.btop:before,#page-btn a.notification:before,#page-top a:before,.cmt-jump2:before,.cmt-jump:before,.comment-list li p:before,.comment-list>li ul li a.dislike:before,.comment-list>li ul li a.like:before,.comment-list>li ul li span.dislike_lim:before,.comment-list>li ul li span.like_lim:before,.comment-view .add-more-btn a span:before,.icon-c,.icon-lv0,.icon-lv1,.icon-lv2,.icon-lv3,.icon-n,.icon-n2,.icon-v,.keyword h2:before,.n-new:before,.news-body .img-bx a.expand:before,.news-comment .logout-btn:before,.news-comment h2:before,.news-like .btn a:before,.push-area-btn a:before,.ranking h2:before,.sbtn input,.search_area:after,.sns a.btn-fb:before,.sns a.btn-tw:before,.sns-share a:before,.summary h2:before,.summary ul li:before,header a.blogo,header a.bnews,main .ranking .rank a:before{background-image:url(/img/common/news_ui2.png?20181207);background-repeat:no-repeat;background-size:40rem auto}ul.txtMenu li{display:inline-block;border-right:1px solid #ccc;padding:0 .6rem 0 .2rem;white-space:nowrap;margin:0}ul.txtMenu li:first-child{padding-left:.8rem}ul.txtMenu li:last-child{border:none}header{width:100%;min-width:104.4rem;margin:0 auto 1.4rem;background:#fff;position:relative}header .h-right{float:right;margin:1.1rem 0}#logo{width:24rem;margin:1rem 2rem 1rem 0;float:left;position:relative}header a.blogo{display:inline-block;width:12.6rem;height:3.3rem;overflow:hidden;text-indent:-9999px;background-position:0 -.3rem}header a.bnews{display:inline-block;width:10.6rem;height:3.3rem;margin-left:.3rem;overflow:hidden;text-indent:-9999px;background-position:-12.9rem -.3rem}a.blogo:hover,a.bnews:hover{opacity:.8}.g-nav{position:relative;clear:both;color:#fff;background-color:#226fbd}.g-nav>.wrap{position:static}.g-nav>.wrap>ul:after{content:"";display:block;clear:both}.g-nav>.wrap>ul>li{float:left}.g-nav>.wrap>ul>li>a{display:block;padding:1.4rem 1rem 1.2rem;font-size:1.4rem;font-weight:700}.g-nav>.wrap>ul>li>a.current{position:relative;background-color:#00aae7;z-index:2}.g-nav>.wrap>ul>li>a.on{background-color:#00aae7}.g-nav a:link,.g-nav a:visited{color:#fff}.g-nav a:hover{text-decoration:none;background-color:#00aae7}.g-nav .pulldown{display:none;position:absolute;top:4rem;left:0;z-index:10;width:100%;border-bottom:1px solid #ddd;background-color:#fff;-webkit-box-shadow:0 .1rem .2rem rgba(0,0,0,.1);box-shadow:0 .1rem .2rem rgba(0,0,0,.1)}.g-nav .pulldown ul{display:inline-block;position:relative}.g-nav .pulldown li{display:inline-block}.g-nav .pulldown li a{display:block;padding:1.5rem 1rem 1.3rem;color:#333;font-size:1.4rem}.g-nav .pulldown li a:hover{position:relative;font-weight:700;text-decoration:none;background-color:#ebf5ff}.g-nav .pulldown li a:hover:before{content:"";position:absolute;left:0;bottom:0;width:100%;height:.2rem;background-color:#226fbd}.l-nav{border-bottom:1px solid #ddd}.l-nav ul li{display:inline-block}.l-nav ul li a{display:block;color:#333;padding:1.5rem 1rem 1.3rem;font-size:1.4rem}.l-nav ul li a:visited{color:#666}.l-nav a:hover,.l-nav ul li a.current{position:relative;font-weight:700;text-decoration:none;background-color:#ebf5ff}.l-nav ul li a.current:before,.l-nav ul li a:hover:before{content:"";position:absolute;left:0;bottom:0;width:100%;height:.2rem;background-color:#226fbd}.u-nav{float:right;margin-top:.1rem;letter-spacing:-.2rem}.u-nav li{display:inline-block;letter-spacing:.1rem}.u-nav li a{display:block;padding:.7rem 1rem .7rem;border-radius:.3rem;font-size:1.4rem;color:#333}.u-nav a:visited{color:#666}.u-nav a:hover,.u-nav li a.current{color:#fff;font-weight:700;text-decoration:none;background-color:#004a93}.serach-bx{float:right;width:19.4rem;margin-left:3rem}.sfrm{float:left;width:15.8rem;height:3rem;min-height:30px;border:#bbb solid .1rem;background:#fff;-webkit-border-radius:.5rem 0 0 .5rem;border-radius:.5rem 0 0 .5rem;padding:.2rem .6rem;box-sizing:border-box;position:relative}.sfrm:hover{border-color:#ccc}.sfrm input{width:100%;height:2.6rem;min-height:26px;font-size:1.2rem;border:none;outline:0;margin:0;padding:0;background-color:transparent;vertical-align:middle;font-family:Meiryo,"Hiragino Kaku Gothic ProN",Arial,sans-serif}.sbtn{float:left;width:3.6rem;border:0}.sbtn input{box-sizing:border-box;width:3.6rem;height:3rem;min-height:30px;border:.1rem solid #bbb;cursor:pointer;-webkit-border-radius:0 .5rem .5rem 0;border-radius:0 .5rem .5rem 0;background-color:#bbb;background-repeat:no-repeat;background-position:-24.3rem 0}.sbtn input:hover{border:.1rem solid #ccc;background-color:#ccc}.more{position:relative}.more:before{content:'';width:.4rem;height:.4rem;border:0;border-top:solid .2rem #bbb;border-right:solid .2rem #bbb;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg);position:absolute;top:48%;left:-1.3rem;margin-top:-.4rem}.more.large{font-size:1.6rem}.more.large:before{top:53%}.icon-c,.icon-n,.icon-v{display:inline-block;position:relative;top:.1rem;width:2.2rem;height:1.6rem;margin-left:.4rem;content:'';text-indent:-9999px;overflow:hidden;background-position:-6.2rem -4.1rem}.icon-v{background-position:-9.4rem -4.1rem}.icon-n{background-position:-12.6rem -4.1rem}.icon-n2{background-position:-12.6rem -4rem}.icon-lv0,.icon-lv1,.icon-lv2,.icon-lv3,.icon-n2{display:inline-block;position:relative;top:.1rem;width:2.2rem;height:1.6rem;content:'';text-indent:-9999px;overflow:hidden}.icon-lv0{background-position:-19.9rem -7.1rem}.icon-lv1{background-position:-22.7rem -7.1rem}.icon-lv2{background-position:-25.4rem -7.1rem}.icon-lv3{background-position:-28.3rem -7.1rem}#news24{border:2px solid #e66767;background:#fff;border-radius:.5rem;margin:0 auto 1rem;display:table;letter-spacing:normal}#news24-ttl{display:table-cell;background:#e66767;color:#fff;font-size:1.8rem;font-weight:700;padding:1rem;text-align:center;letter-spacing:.3rem;vertical-align:middle;width:8rem}#news24-info{display:table-cell;padding:1rem;vertical-align:middle;line-height:2rem}#news24-info .date{font-size:1.2rem;margin-left:1rem;white-space:nowrap}main h2{background-color:transparent;border:none;border-radius:0;padding:0;font-size:1.8rem}main .bx{padding:1.6rem 0 0;font-size:1.4rem}main .bx ul li{font-size:1.4rem}main .bx ul li:before{top:.7rem}main section{margin-bottom:0;border:none;font-size:1.4rem;border-radius:0}main section+section{margin-top:2.4rem;padding-top:2.4rem;border-top:1px solid #ddd}#main-news{position:relative}#main-news h1,#main-news h2{margin-bottom:.7rem;padding-top:.2rem;font-size:1.8rem;font-weight:700}.n-bx{position:relative;min-height:32.7rem;margin-bottom:3rem}#nlst{width:38rem;float:left}#n-rbx{width:32rem;float:right}#nlst li{line-height:2.9rem;position:relative;padding-left:2.8rem;font-size:1.6rem}#nlst li:before{content:'';width:.6rem;height:.6rem;background-color:#ccc;border-radius:1rem;left:.6rem;top:1.1rem;position:absolute}#nlst li.n-new:before{display:inline-block;left:0;top:.8rem;width:2rem;height:1.1rem;border-radius:0;background-position:-12.7rem -4.3rem;background-color:transparent}#main-news .icon-c,#main-news .icon-v{position:relative;top:.1rem}#main-news .cmt-num{position:relative;top:-.1rem}#pickup .img{width:32rem;height:22.5rem;margin-bottom:1rem}#pickup .img:hover{opacity:.8}#pickup .img a{display:inline-block;width:32rem;height:22.5rem;background-color:#eee;background-repeat:no-repeat;-webkit-background-size:contain;background-size:contain;background-position:center center}#pickup .cap{font-size:1.4rem;line-height:1.5;overflow:hidden;height:3.9rem}#n-lnk{width:32rem;position:absolute;bottom:.6rem;right:0;text-align:right}#n-lnk .more{margin-left:2.4rem;line-height:1.5}.photo-news .bx li{margin-bottom:0;padding-left:0;font-size:1.3rem}.photo-news .bx li:before{display:none}.photo-news ul{margin-bottom:2rem}.photo-news li{float:left;width:15.9rem;margin-right:2.4rem}.photo-news li:last-child{margin-right:0}.photo-news .img{margin-bottom:1rem}.photo-news .img a{display:inline-block;width:15.9rem;height:12.8rem;background-repeat:no-repeat;background-size:cover;background-position:center center;background-color:#eee}.photo-news .img a:hover{opacity:.8}.photo-news .cap{overflow:hidden;font-size:1.3rem;line-height:1.5}.photo-news .recommend .cap{height:5.8rem}.photo-news .bx li .date{margin-top:1rem;color:#999;font-size:1.2rem}.topics-cat .bx{float:left;width:34.2rem;margin-right:2.4rem;padding-top:0}.topics-cat .bx:last-child{margin-right:0}main .topics-cat h2{margin-bottom:1.6rem}.topics-cat .bx ul{margin-bottom:1.2rem}.topics-cat .bx ul li{padding-left:2.8rem}.topics-cat .bx ul li:before{left:.6rem}.topics-cat .bx ul li.n-new:before{left:0}.topics-cat .bx ul li.n-top{margin-bottom:1.4rem;padding-left:0}.topics-cat .bx ul li.n-top:before{display:none}.topics-cat .bx ul li.n-top:after{content:"";display:block;clear:both}.topics-cat .bx ul li.n-top .img{float:left;width:10rem}.topics-cat .bx ul li.n-top .img a{display:block;width:10rem;height:8rem;background-repeat:no-repeat;background-size:cover;background-position:center center}.topics-cat .bx ul li.n-top .img a:hover{opacity:.8}.topics-cat .bx ul li.n-top .cap{float:right;width:23rem}#right-side .bx ul li{padding-left:0;white-space:nowrap}#right-side .bx ul li:before{display:none}.cmt-num{display:inline-block;margin-left:.5rem;color:#999;font-family:Arial,sans-serif;font-size:1.2rem;font-weight:400}.cmt-num a:link,.cmt-num a:visited{color:#999}#right-side .topics ul li{font-weight:700;white-space:nowrap;letter-spacing:normal}section.ranking{border:none;border-radius:0;margin-bottom:3.6rem}#right-side .ranking h2{position:relative;padding:0 0 1.2rem 3.4rem;font-weight:700;background:0 0}#right-side .ranking h2:before{content:"";position:absolute;top:-.4rem;left:.3rem;width:2rem;height:2rem;background-position:-31.8rem 0}.ranking .rank{border-top:1px solid #ddd}.ranking .rank:first-child{border-top:none}#right-side .ranking .rank:last-child{border-bottom:1px solid #ddd}.ranking .rank>a{display:block;padding:1.8rem 0 1.5rem}.ranking .rank>a:after{content:"";display:block;clear:both}.ranking .rank>a:hover{text-decoration:none;background-color:#ebf5ff}.ranking .rank>a:hover div{text-decoration:none}.ranking .num{float:left;width:2.2rem;height:2.2rem;margin-right:1.2rem;line-height:2.2rem;color:#fff;font-family:Arial,sans-serif;font-size:1.3rem;font-weight:700;text-align:center;background-color:#8cb8dd}.ranking .rnk1{background-color:#e0bd00}.ranking .rnk2{background-color:silver}.ranking .rnk3{background-color:#c47222}.ranking .thumb{float:right;width:6.5rem;height:6.5rem;background-position:center center;-webkit-background-size:cover;background-size:cover}.ranking .txt{float:left;width:19.4rem;margin-bottom:0;max-height:6.3rem;overflow:hidden;line-height:1.5}.ranking .txt p{margin-bottom:0}.ranking .txt .date{font-size:1.4rem}main .ranking .rank>a{position:relative;padding:2rem 0 1.8rem 6rem}main .ranking .rank>a:before{content:"";display:block;position:absolute;top:1.9rem;left:1.1rem;width:3rem;height:3rem;background-position:0 -10.8rem}main .ranking .rank>a.up:before{background-position:-4rem -10.8rem}main .ranking .rank>a.down:before{background-position:-8rem -10.8rem}main .ranking .rank>a.new:before{background-position:-12rem -10.8rem}main .ranking .rank>a:after{content:"";display:block;clear:both}main .ranking .rank>a:hover{text-decoration:none;background-color:#ebf5ff}main .ranking .rank>a:hover div{text-decoration:none}main .ranking .num{width:3rem;height:3rem;margin-right:2.4rem;line-height:3rem;font-size:1.6rem}main .ranking .thumb{width:8.6rem;height:8.6rem}main .ranking .txt{width:48.4rem;max-height:none;font-size:1.6rem}.news-tab{border-bottom:1px solid #ddd}.news-tab:after{content:"";display:block;clear:both}.news-tab li{display:inline-block}.news-tab li a{display:block;padding:1.1rem 1rem 1.3rem;font-size:1.4rem}.news-tab a:hover,.news-tab li a.current{position:relative;font-weight:700;text-decoration:none;background-color:#ebf5ff}.news-tab li a.current:before,.news-tab li a:hover:before{content:"";position:absolute;left:0;bottom:0;width:100%;height:.2rem;background-color:#226fbd}main .bx ul.news-tab li{float:left;margin-bottom:0;padding-left:0}main .bx ul.news-tab li:before{display:none}main .bx ul.news-tab.short li{letter-spacing:normal}main .bx ul.news-tab.short li a{padding:1.1rem .75rem 1.3rem;color:#333}main .bx ul.news-tab.short li a:visited{color:#666}.news-ad-bb-a{min-width:970px;min-height:90px;margin:0 auto 2.4rem;text-align:center}.news-ad-square-a{min-height:250px;margin-bottom:3.6rem}.rank-list .news-ad-square-a{margin-top:1.8rem}.news-ad-square-box{width:64.8rem;min-height:250px;margin:3.6rem auto 0}.news-ad-square-box:after{content:"";display:block;clear:both}.news-ad-square-box .news-ad-square-a{float:left;margin-right:4.8rem;margin-bottom:0}.news-ad-square-box .news-ad-square-a:last-child{margin-right:0}main .news-ad-square-box+section,main .news-ad-wrap+section{margin-top:3.6rem;padding-top:2.4rem;border-top:1px solid #ddd}.news-list .news-ad-square-box+ul{margin-top:3.6rem}.rank-list .news-ad-square-box+.rank{margin-top:3.6rem}.news-ad-wrap{margin-top:1.8rem}.news-ad-wrap .news-ad-square-a,.news-ad-wrap .news-ad-square-box{margin-top:0}.kenmin-bnr-caption{padding:20px 0 10px;display:block;color:#006ccc;text-align:center}.kenmin-bnr-link{display:block;margin:5px}.kenmin-bnr{width:100%;height:auto;display:block}.main-utility{margin-bottom:1rem}.main-utility:after{content:"";display:block;clear:both}.breadcrumb{float:left;padding:.6rem 2.4rem .8rem 0;white-space:nowrap}.breadcrumb li{display:inline-block;font-size:1.2rem}.breadcrumb li+li{position:relative;margin-left:.2rem;padding-left:1.6rem}.breadcrumb li+li:before{content:"";display:block;position:absolute;top:0;bottom:0;left:0;width:.5rem;height:.5rem;margin:auto;border-top:solid .1rem #333;border-right:solid .1rem #333;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg)}.news h1{margin-bottom:2rem;line-height:1.4;font-size:2.4rem}.news-sup{margin-bottom:4rem}.news-sup .sns-share+.date{float:right}.news-s{margin-bottom:2.4rem;border-bottom:1px solid #ddd}.news-s:last-of-type{margin-bottom:.4rem;border-bottom:none}.summary+.news-s{padding-top:2.4rem;border-top:none}.news-s h2{margin-bottom:1rem;line-height:1.3;font-size:2rem}.news-s p{line-height:1.7}.date{color:#999}.date a:link,.date a:visited{color:inherit}.news-body{line-height:1.7;font-size:1.6rem;word-wrap:break-word;word-break:normal}.news-s .news-body::after{content:"";display:block;clear:both}.news-body p{margin-bottom:1.8rem}.news-body .img-bx{float:left;width:30rem;margin:0 2.4rem 2.4rem 0;z-index:1;position:relative}.news-body .img-bx.large{float:none;width:48rem;margin:0 auto 3.6rem}.news-s .news-body .img-bx{float:right;width:20rem;margin:0 0 2.4rem 2.4rem}.news-s .news-body .img-bx img{width:100%}.news-body .img-bx a.expand-photo{display:table;table-layout:fixed;width:30rem;height:22.5rem}.news-body .img-bx.large a.expand-photo{width:48rem;height:36rem}.news-body .img-bx a.expand-photo:hover{opacity:.8}.news-body .img-bx a.expand-photo>div{display:table-cell;width:30rem;height:22.5rem;vertical-align:middle;text-align:center;background-color:#f4f4f4}.news-body .img-bx.large a.expand-photo>div{width:48rem;height:36rem}.news-body .img-bx a.expand-photo img{width:auto;height:auto;max-width:100%;max-height:100%}.news-body .img-bx .cap{display:table;width:100%;padding:1rem .8rem;color:#666;font-size:1.2rem;background-color:#f4f4f4;box-sizing:border-box}.news-body .img-bx.large .cap{padding:1rem}.news-body .img-bx .cap p{display:table-cell;margin-bottom:0;line-height:1.2;vertical-align:middle}.news-body .img-bx .cap p:last-child{width:10rem;text-align:right}.news-body .img-bx a.expand{display:inline-block;position:relative;padding:.1rem .7rem .1rem 2.4rem;color:#333;line-height:1.5;border:1px solid #ddd;border-radius:.3rem;letter-spacing:normal;background-color:#fff}.news-body .img-bx a.expand:before{content:"";position:absolute;top:0;bottom:0;left:.5rem;width:1.6rem;height:1.6rem;margin:auto;background-position:-34.8rem 0}.news-body .img-bx a.expand:hover{text-decoration:none;opacity:.8}.news-body .img-bx .thumb{margin:2.4rem -1.2rem -1.2rem 0;overflow:hidden}.news-body .img-bx .thumb li{float:left;width:6.6rem;margin-right:1.2rem;margin-bottom:1.2rem}.news-body .img-bx.large .thumb li{width:8.6rem}.news-body .img-bx .thumb li a{display:block;width:6.6rem;height:6.6rem;background-color:#eee;background-position:center center;-webkit-background-size:cover;background-size:cover}.news-body .img-bx.large .thumb li a{width:8.6rem;height:8.6rem}.news-body .img-bx .thumb li a:hover{opacity:.8}.sns-share{float:left}.sns-share li{float:left;margin-right:.8rem}.sns-share li:last-child{margin-right:0}.sns-share li a{display:block;position:relative;min-width:7.4rem;height:2.6rem;padding:0 .5rem 0 0;line-height:2.6rem;border-radius:.3rem;color:#fff;overflow:hidden;font-size:1.2rem;font-family:Arial,sans-serif;box-sizing:border-box}.sns-share li a:hover{text-decoration:none;opacity:.8}.sns-share #tw-btn{background-color:#55acee}.sns-share #fb-btn{background-color:#3b5998}.sns-share #hb-btn{text-indent:-9999px;background-color:#00a4de}.sns-share #push-link{letter-spacing:normal;background-color:#e66767}.sns-share li a:before{content:"";display:inline-block;width:2.6rem;height:2.6rem;vertical-align:top}.sns-share #tw-btn:before{background-position:-27.8rem -4.2rem}.sns-share #fb-btn:before{background-position:-31.4rem -4.2rem}.sns-share #hb-btn:before{position:absolute;top:0;right:0;bottom:0;left:0;margin:auto;background-position:-35rem -4.2rem}.sns-share #push-link:before{background-position:-21.6rem -10.9rem}.summary{padding:1.5rem 2rem 2rem;background-color:#f4f4f4}.summary h2{position:relative;margin-bottom:1rem;padding-left:3.4rem;font-size:1.8rem}.summary h2:before{content:"";display:inline-block;position:absolute;top:0;bottom:.4rem;left:0;width:2rem;height:2rem;margin:auto;background-position:0 -7.2rem}.summary ul{padding:1.5rem;background-color:#fff}.summary ul li{position:relative;padding-left:2.6rem;line-height:1.3;font-size:1.6rem;font-weight:700;letter-spacing:normal}.summary ul li+li{margin-top:1rem}.summary ul li:before{content:"";display:inline-block;position:absolute;top:0;left:0;width:1.6rem;height:1.6rem;background-position:-15.4rem -7.2rem}.news-list .ttl-bx h2{display:inline-block;margin-right:4.4rem}.news-list .ttl-bx .sub-menu{display:inline-block}.news-list .ttl-bx .sub-menu li{display:inline-block}.news-list .ttl-bx .sub-menu li+li{margin-left:2rem}.news-list .bx{padding-top:.6rem}.news-list .bx li{margin-bottom:0;padding-left:0}.news-list .bx li:before{display:none}.news-list .bx li a{display:block;padding:1.2rem 0}.news-list .bx ul li{display:table}.news-list .bx ul li:hover{background-color:#ebf5ff}.news-list .bx .img-wrapper{display:table-cell}.news-list .bx .cap{display:table-cell;vertical-align:top}.news-list .bx .cap a{padding:1.2rem 0 0}.news-list .bx .KeywordLink li{display:inline-block}.news-list .bx .KeywordLink{padding:.5rem 0 1rem .5rem}.news-list .bx .KeywordLink li a{margin-bottom:5px;margin-right:2px;border:1px solid #ccc;border-radius:3px;padding:3px 5px;display:inline-block;text-decoration:none!important;color:#333;background-color:#fff;font-weight:400}.news-list .bx li a:after{content:"";display:block;clear:both}.news-list .bx li a:hover{background-color:#ebf5ff}.news-list .bx .img{float:left;width:15.9rem;height:12rem;background-position:center center;-webkit-background-size:cover;background-size:cover;margin-right:2.4rem}.news-list a:hover .img{opacity:.8}.news-list .bx .cap{width:70.5rem;font-size:1.6rem;line-height:1.5}.news-list .bx li a:hover .cap{text-decoration:none}.news-list .bx .date{color:#999;font-size:1.2rem}.news-list .txt-r{margin-top:1.2rem}.news-cpl{margin-top:1.8rem;text-align:right}.pagenation{margin:2.4rem 0 0;font-size:1.6rem}.pagenation.item-number:after{content:"";display:block;clear:both}.pagenation.item-number p{float:left;padding-top:1rem}.pagenation .pager{text-align:center;letter-spacing:-.4em}.pagenation.item-number .pager{float:right}.pagenation a,.pagenation span{display:inline-block;min-width:2.6rem;margin:0 .4rem;text-decoration:none;border:1px solid #ddd;border-radius:.3rem;padding:1rem .5rem .8rem;color:#333;text-align:center;letter-spacing:normal}.pagenation .current,.pagenation a:hover{font-weight:700;background-color:#ebf5ff}.pagenation a.prev{position:relative;min-width:7.2rem;padding:1rem .8rem .8rem 2.6rem}.pagenation a.next{position:relative;min-width:7.2rem;padding:1rem 2.6rem .8rem .8rem}.pagenation a.prev:before{content:"";position:absolute;top:0;left:1rem;bottom:0;width:.6rem;height:.6rem;margin:auto;border-bottom:2px solid #999;border-left:2px solid #999;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg)}.pagenation a.next:before{content:"";position:absolute;top:0;right:1rem;bottom:0;width:.6rem;height:.6rem;margin:auto;border-top:2px solid #999;border-right:2px solid #999;-ms-transform:rotate(45deg);-webkit-transform:rotate(45deg);transform:rotate(45deg)}.pagenation .none{visibility:hidden}.news-recommend{margin-top:4.8rem}.news-recommend h2{font-weight:400;font-size:1.6rem}.news-recommend .bx ul li{font-size:1.6rem}.news-recommend .bx ul li:before{top:.8rem}.news-recommend a{color:#666}.news-recommend a:visited{color:#333}.news-like{display:table;width:50rem;margin:0 auto;padding:1.8rem;border-radius:.5rem;font-size:1.6rem;background-color:#f4f4f4}.news-like .btn,.news-like p{display:table-cell;vertical-align:middle;text-align:center}.news-like .btn{padding-left:2.4rem}.news-like .btn a{display:inline-block;position:relative;padding:.9rem 1.4rem .7rem 3.4rem;line-height:1;border-radius:.3rem;color:#fff;overflow:hidden;font-size:1.4rem;font-weight:700;background-color:#3b5998}.news-like .btn a:hover{text-decoration:none;opacity:.8}.news-like .btn a:before{content:"";display:inline-block;position:absolute;top:0;bottom:-.3rem;left:.6rem;width:2.6rem;height:2.6rem;margin:auto;background-position:-31.4rem -4.2rem}.back-number .ttl-bx:after{content:"";display:block;clear:both}.back-number .ttl-bx h1{float:left;padding-top:.6rem}.select-bx{float:right;display:block;position:relative;min-width:9.6rem;text-decoration:none;border:1px solid #ddd;border-radius:.3rem;color:#333;text-align:center;letter-spacing:normal;box-sizing:border-box}.select-bx select{position:relative;width:100%;padding:.5rem 1rem;border:none;-webkit-appearance:none;-moz-appearance:none;appearance:none;font-size:1.4rem;cursor:pointer;background:#fff}.select-bx label{position:relative}.select-bx label:after{content:'';width:.6rem;height:.6rem;border:0;border-top:solid .2rem #999;border-right:solid .2rem #999;-ms-transform:rotate(135deg);-webkit-transform:rotate(135deg);transform:rotate(135deg);position:absolute;top:55%;right:1.6rem;margin-top:-.5rem}.topics-back-number .items{border-top:1px solid #ddd}.topics-back-number .items:first-child{border-top:none}.topics-back-number .items>a{display:block;padding:1.8rem 0 1.5rem}.topics-back-number .items>a:after{content:"";display:block;clear:both}.topics-back-number .items>a:hover{text-decoration:none;background-color:#ebf5ff}.topics-back-number .items>a:hover div{text-decoration:none}.topics-back-number .thumb{float:left;width:6rem;height:6rem;margin-right:1.8rem;background-position:center center;-webkit-background-size:cover;background-size:cover}.topics-back-number .txt{float:left;width:63rem;margin-bottom:0;line-height:1.5;font-size:1.6rem}.topics-back-number .txt p{margin-bottom:.4rem}.topics-back-number .txt .date{margin-bottom:0;font-size:1.4rem}#headline{margin:0 auto 2.4rem}.msgNoScript{border-bottom:1px solid #555;background-color:#2e2e2e;color:#eee;font-size:80%;padding:1em 4em;margin-bottom:1em;text-align:center}.msgNoScript em{color:#ff0}.bn_no_topics{margin:1.5rem;font-weight:600}.topics-back-number .noImg{margin-left:1.8rem}.nscp_link .bx ul li a{color:#2355a5}.nscp_link .bx ul li a:visited{color:#639}.tx a:link{color:#2355a5}.tx a:visited{color:#639}.tx .tx-kw{text-decoration:underline;margin-left:.15rem;margin-right:.15rem}.tx img{max-width:100%;height:auto}.article_first_img{text-align:center}.topnews-none{margin:10px 0 20px;text-align:center;display:inline-block;width:100%}.topnews-none p{font-size:12px;color:#666;padding:5px;border:1px solid #ccc;display:inline-block;width:50%}.main-utility .keyword ul li div{padding:.5rem .7rem;font-size:1.2rem;display:block;border:1px solid #ddd;border-radius:.3rem}.page-count{text-align:center;font-size:1.4rem;padding-top:20px}.page-count span{color:#999}.no-article{padding:100px 50px 30px;font-size:1.6rem;text-align:center}.topics_tag{font-weight:700;letter-spacing:normal;line-height:1.5;margin-top:.6rem}.error{padding:40px 20px 10px;text-align:center}.rel-topics .bx ul li{padding-left:0}.rel-topics .bx ul li:before{display:none}.rel-topics .bx ul li a{font-size:1.6rem}.rel-topics .bx ul li .comm{margin-left:1rem}.rel-topics{padding-top:2.4rem;border-top:1px solid #ddd}.keyword a:link{color:#666}.keyword a:visited{color:#333}.tx iframe{max-width:100%}.news-more{padding-bottom:.5rem;text-align:center}.news-body p.news-more{margin-bottom:2.4rem}.news-more a{display:inline-block;min-width:42rem;padding:1.2rem 1rem 1rem;border-radius:.5rem;color:#fff;font-weight:700;font-size:1.6rem;text-align:center;background-color:#226fbd;position:relative;box-sizing:border-box}.news-more a:link,.news-more a:visited{color:#fff}.news-more a:hover{text-decoration:none;opacity:.8}.news-more a.type1{box-shadow:0 .5rem 0 #233970}.news-more a.type2{background:#eee;background:-webkit-linear-gradient(top,#eee 0,#ccc 100%);background:linear-gradient(to bottom,#eee 0,#ccc 100%);color:#333;box-shadow:0 .4rem 0 #666}.news-more a.max{display:block}.news-s .img-bx+p+.news-more{float:left;width:48.4rem}.kw-news li a{display:table}.kw-news li a div{display:table-cell;vertical-align:middle}.kw-sum{font-size:1.2rem;color:#333}.kw-sum:hover{text-decoration:none}.kw-news li a:hover,.kw-news li a:hover div{text-decoration:none}.kw-news li a:hover .kw-title{text-decoration:underline}.rel-photo-news .photo-news{padding-top:2rem}.rel-photo-news .photo-news ul{margin-left:3rem}.rel-photo-news .photo-news li{float:left;width:20rem;margin-right:2.4rem}.rel-photo-news .photo-news .img{width:20rem;height:15rem;background-position:center center;-webkit-background-size:cover;background-size:cover}.rel-photo-news .photo-news .cap{height:6.2rem;font-size:1.4rem}.rel-photo-news .txt-r{margin-right:2.9rem}.rel-photo-news li a{display:block}.rel-photo-news li a:hover{background-color:#ebf5ff}.sb-more-rank{border-top:1px solid #ddd;font-weight:700;text-align:right;padding-top:1rem}#right-side .topics h2 a:link,#right-side .topics h2 a:visited{color:#333}#right-side .ranking h2 a:link,#right-side .ranking h2 a:visited{color:#333}.quake{padding:2rem;border:2px solid #e66767;background:#ffeded;border-radius:.5rem;margin-bottom:2rem}.quake-wrap{margin:0 auto;display:table}.quake-ttl{display:table-cell;color:#e00;font-weight:700;font-size:1.8rem;width:9.5rem;letter-spacing:.1em}.quake-info{display:table-cell}.quake-txt{color:#000;font-size:1.6rem;font-weight:700}.quake-scale{color:#000;font-size:1.2rem;line-height:2rem;margin:0;letter-spacing:1px}.quake-scale span{white-space:nowrap;margin-right:.2rem}.quake-scale span+span.b{margin-left:.5em}#anchor_ad{position:fixed;bottom:0;left:0;right:0;width:auto;height:90px;z-index:100;overflow:scroll;background-color:#fafbfc;border-top:1px solid #fafbfc;-ms-overflow-style:none;scrollbar-width:none;text-align:center;overflow:hidden}#anchor_ad::-webkit-scrollbar{display:none}#yads_pc_overlay{max-width:728px;margin:0 auto}#google_ads_frame2{float:left}#gadsOverlayUnit{min-width:1100px}.gadsOverlay{position:fixed;bottom:0;left:0;right:0;width:100%;height:90px;z-index:100;overflow:scroll;background-color:#fafbfc;border-top:1px solid #fafbfc;-ms-overflow-style:none;scrollbar-width:none;text-align:center;overflow:hidden;bottom:0}#gadsOverlayUnit .gadsOverlayClose{position:absolute;font-size:26px;width:18px;height:17px;top:25px;margin-top:-17px;margin-left:calc(100% - 26px);cursor:pointer;white-space:nowrap}.gadsOverlayCnt div:nth-child(2){margin:0 auto;width:728px;height:90px}.workstyle-theme{background-color:#528ac3}.nonelayer{display:inline-block}
+</style>
+<link rel="stylesheet" href="/css/header/footer.min.css?20220329" media="print" onload="this.media='all'">
+<script src="/js/common/load_script.min.js?20220331" async></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-W9LL27PVV5"></script>
+<script>
+  var _gaq = {
+    push: function (trackingData) {
+      if (trackingData.length >= 3) {
+        var category = trackingData[1];
+        if (/test/.test(location.origin)) {
+          category = 'test_pc_' + category;
+        }
+        var action = trackingData[2];
+        var label = '';
+        if (trackingData.length >= 4) {
+          label = trackingData[3];
+        }
+        var value = 0;
+        if (trackingData.length >= 5) {
+          value = trackingData[4];
+        }
+        if (trackingData.length >= 5) {
+          gtag('event', action, {
+            'event_category': category,
+            'event_label': label,
+            'value': value
+          });
+        } else if (trackingData.length >= 4) {
+          gtag('event', action, {
+            'event_category': category,
+            'event_label': label
+          });
+        } else {
+          gtag('event', action, {
+            'event_category': category
+          });
+        }
+      }
+    }
+  };
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-15970553-1');
+  gtag('config', 'G-W9LL27PVV5');
+
+  var debugMode = /test/.test(location.origin);
+
+
+
+
+
+
+</script>
+<!-- 手順1 Fluxタグの記述 -->
+<script type='text/javascript'>
+  window.pbjs = window.pbjs || {};
+  window.pbjs.que = window.pbjs.que || [];
+</script>
+<script async='async' src='https://flux-cdn.com/client/00309/news.biglobe.ne_00730.min.js'></script>
+
+<!-- 手順2 GoogleのDFPの記述 -->
+<script type='text/javascript'>
+  window.googletag = window.googletag || {};
+  window.googletag.cmd = window.googletag.cmd || [];
+</script>
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js'></script>
+
+<!-- INTERSTITIAL -->
+<script>
+  var pathName = location.pathname.replaceAll(/\/{2,}/g, '\/');
+  if (/^\/(entertainment|sports|domestic|international|economy|it|trend|animal)\/\d{4}\/[a-zA-Z0-9]{2,}_\d{6}_\d{10}.html$/.test(pathName)) {
+    googletag.cmd.push((function () {
+      var slot = googletag.defineOutOfPageSlot('/27979278/NEWS-PC-INTERSTITIAL', googletag.enums
+        .OutOfPageFormat.INTERSTITIAL);
+      slot && slot.addService(googletag.pubads());
+      googletag.pubads().enableSingleRequest();
+      googletag.enableServices();
+      googletag.display(slot);
+    }));
+  }
+</script>
+
+<!-- 手順3 Prebidを呼び出すための記述 -->
+<script type='text/javascript'>
+  window.fluxtag = {
+    readyBids: {
+      prebid: false,
+      google: false
+    },
+    failSafeTimeout: 3e3,
+    isFn: function isFn(object) {
+      var _t = 'Function';
+      var toString = Object.prototype.toString;
+      return toString.call(object) === '[object ' + _t + ']';
+    },
+    launchAdServer: function () {
+      if (!fluxtag.readyBids.prebid) {
+        return;
+      }
+      fluxtag.requestAdServer();
+    },
+    requestAdServer: function () {
+      if (!fluxtag.readyBids.google) {
+        fluxtag.readyBids.google = true;
+        googletag.cmd.push(function () {
+          if (!!(pbjs.setTargetingForGPTAsync) && fluxtag.isFn(pbjs.setTargetingForGPTAsync)) {
+            pbjs.que.push(function () {
+              pbjs.setTargetingForGPTAsync();
+            });
+          }
+          googletag.pubads().refresh();
+        });
+      }
+    }
+  };
+</script>
+
+<!-- 手順4 強制的にDFPを呼び出すための記述 -->
+<script type='text/javascript'>
+  setTimeout(function () {
+    fluxtag.requestAdServer();
+  }, fluxtag.failSafeTimeout);
+</script>
+
+<!-- 手順5 広告枠の定義とFluxタグの呼び出し -->
+<script type='text/javascript'>
+  var bnews_random = Math.floor(Math.random() * 100);
+  bnews_random = ('0' + bnews_random).slice(-2);
+  googletag.cmd.push(function () {
+    // add slot (defineSoltの記述）
+    // 全ページ共通
+    googletag.defineSlot('/27979278/BL-NEWS_HEADER', [[1, 1], [970, 90], [970, 250], [728, 90]], 'div-gpt-ad-1480396131766-0').addService(googletag.pubads());
+    googletag.defineSlot('/27979278/BL-NEWS_1ST_RECTANGLE', [[300, 250], [300, 600]], 'div-gpt-ad-1411965564454-0').addService(googletag.pubads());
+    googletag.defineSlot('/27979278/BL-NEWS-PC-ANCHOR', [[728, 90]], 'div-gpt-ad-1596675037075-0').addService(googletag.pubads());
+    googletag.defineSlot('/27979278/BL-NEWS_1.5_REC', [[300, 250]], 'div-gpt-ad-1621580607875-0').addService(googletag.pubads());
+    googletag.defineSlot('/27979278/BL-NEWS_1.7_REC', [[300, 250]], 'div-gpt-ad-1631012669422-0').addService(googletag.pubads());
+    switch (true) {
+      // 記事ページ
+      case /^\/(entertainment|sports|domestic|international|economy|it|trend|animal)\/\d{4}\/[a-zA-Z0-9]{2,}_\d{6}_\d{10}.html$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_MID_LEFT', [300, 250], 'div-gpt-ad-1519273488468-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_MID_RIGHT', [300, 250], 'div-gpt-ad-1656449003826-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS-PC-IN_ARTICLE', [728, 90], 'div-gpt-ad-1599212539073-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // トピックスバックナンバー
+      case /^\/topics\/back_number\/(\d{4}\/\d{4}\/)?(index.html)?$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // サイト内記事検索
+      case /^\/results.html$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // 写真一覧
+      case /^\/photo\/((entertainment|sports|domestic|international|economy|it|trend|animal)\/)?(index(_[0-9]{1,})?.html)?$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // 動画一覧
+      case /^\/video\/((entertainment|sports|domestic|international|economy|it|trend|animal)\/)?(index(_[0-9]{1,})?.html)?$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // 提供者一覧
+      case /^\/provider\/((entertainment|sports|domestic|international|economy|it|trend|animal)\/)?(index.html)?$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      // 緊急速報
+      case /^\/quicknews\/(index.html)?$/.test(pathName):
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+      default:// トップ, ジャンル,サブジャンル,キーワード,地域ニューストップ,地域ニュース一覧,ランキング,トピックス,提供者別一覧,新着一覧
+        googletag.defineSlot('/27979278/BL-NEWS_MID_LEFT', [300, 250], 'div-gpt-ad-1519273488468-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_MID_RIGHT', [300, 250], 'div-gpt-ad-1656449003826-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_2.0_REC', [300, 250], 'div-gpt-ad-1656449060672-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_3.0_REC', [300, 250], 'div-gpt-ad-1656449134051-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_LEFT', [300, 250], 'div-gpt-ad-1656449088273-0').addService(googletag.pubads());
+        googletag.defineSlot('/27979278/BL-NEWS_UNDER_RIGHT', [300, 250], 'div-gpt-ad-1656449111234-0').addService(googletag.pubads());
+        break;
+    }
+
+    googletag.pubads().setTargeting('bnews_num', bnews_random);
+    googletag.pubads().enableSingleRequest();
+    googletag.pubads().disableInitialLoad();
+    googletag.enableServices();
+
+    // Prebidが呼び出せる状態の場合
+    if (!!(window.pbFlux) && !!(window.pbFlux.prebidBidder) && fluxtag.isFn(window.pbFlux.prebidBidder)) {
+      pbjs.que.push(function () {
+        window.pbFlux.prebidBidder();
+      });
+    } else {
+      // Prebidが呼び出せない場合、すぐにGAMを呼び出す
+      fluxtag.readyBids.prebid = true;
+      fluxtag.launchAdServer();
+    }
+  });
+</script>
+<script>(function(){/*
+
+ Copyright The Closure Library Authors.
+ SPDX-License-Identifier: Apache-2.0
+*/
+'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,m=/^[\w+/_-]+[=]{0,2}$/,p=null,q=function(){},r=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";
+if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},u=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var v=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:q})};var y=function(a,b){this.b=a===w&&b||"";this.a=x},x={},w={};var aa=function(a,b){a.src=b instanceof y&&b.constructor===y&&b.a===x?b.b:"type_error:TrustedResourceUrl";if(null===p)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&m.test(b)){p=b;break b}p=""}b=p;b&&a.setAttribute("nonce",b)};var z=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^+new Date).toString(36)};var A=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},B=function(a){this.a=a||l.document||document};B.prototype.appendChild=function(a,b){a.appendChild(b)};var C=function(a,b,c,d,e,f){try{var k=a.a,h=A(a.a,"SCRIPT");h.async=!0;aa(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?C(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var ba=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ca=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),da=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ea=function(a,b,c){this.b=a;this.f=new B(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},F=function(a){if(a.b.body&&!a.g){var b=
+function(){D(a);l.setTimeout(function(){return E(a,3)},50)};C(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},D=function(a){for(var b=G(1,5),c=0;c<b;c++){var d=H(a);a.b.body.appendChild(d);a.c.push(d)}b=H(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=G(100,110).toString()+"%";b.style.zIndex=G(2147483544,2147483644).toString();b.style["background-color"]=I(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=I(0,10,0,10,0,10);b.style.display=
+"flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=H(a);c.style.width=G(80,85).toString()+"%";c.style.maxWidth=G(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=A(a.f.a,"IMG");d.className=z();d.src=ba;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=H(a),f=H(a);f.style["font-weight"]="bold";f.textContent=ca;var k=H(a);k.textContent=da;J(a,
+e,f);J(a,e,k);J(a,c,d);J(a,c,e);J(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=G(1,5);for(c=0;c<b;c++)d=H(a),a.b.body.appendChild(d),a.c.push(d)},J=function(a,b,c){for(var d=G(1,5),e=0;e<d;e++){var f=H(a);b.appendChild(f)}b.appendChild(c);c=G(1,5);for(d=0;d<c;d++)e=H(a),b.appendChild(e)},G=function(a,b){return Math.floor(a+Math.random()*(b-a))},I=function(a,b,c,d,e,f){return"rgb("+G(Math.max(a,0),Math.min(b,255)).toString()+","+G(Math.max(c,0),Math.min(d,255)).toString()+","+G(Math.max(e,0),Math.min(f,
+255)).toString()+")"},H=function(a){a=A(a.f.a,"DIV");a.className=z();return a},E=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(fa(a),D(a),l.setTimeout(function(){return E(a,b-1)},50))},fa=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ia=function(a,b,c,d,e){var f=ha(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ha=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var K={},L=null;var M=function(){},N="function"==typeof Uint8Array,O=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||Array.isArray(c)||N&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},P=[],Q=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===P?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===P?a.c[b]=[]:c},R=function(a,b,c){a.b||(a.b={});if(!a.b[c]){var d=Q(a,c);d&&(a.b[c]=new b(d))}return a.b[c]};
+M.prototype.h=N?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!L){L={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));K[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===L[h]&&(L[h]=k)}}}b=K[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],t=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&
+3)<<4|t>>4;t=(t&15)<<2|h>>6;h&=63;f||(h=64,e||(t=64));c.push(b[k],b[n],b[t]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,S)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,S)};var S=function(a,b){return"number"!==typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};M.prototype.toString=function(){return this.a.toString()};var T=function(a){O(this,a)};u(T,M);var U=function(a){O(this,a)};u(U,M);var ja=function(a,b){this.c=new B(a);var c=R(b,T,5);c=new y(w,Q(c,4)||"");this.b=new ea(a,c,Q(b,4));this.a=b},ka=function(a,b,c,d){b=new T(b?JSON.parse(b):null);b=new y(w,Q(b,4)||"");C(a.c,b,3,!1,c,function(){ia(function(){F(a.b);d(!1)},function(){d(!0)},Q(a.a,2),Q(a.a,3),Q(a.a,1))})};var la=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ka(b,c,d,e)});V(a,"internal_api_sb",function(){F(b.b)})},V=function(a,b,c){a=l.btoa(a+b);v(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==r(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){O(this,a)};u(X,M);var Y=function(a){this.h=window;this.a=a;this.b=Q(this.a,1);this.f=R(this.a,T,2);this.g=R(this.a,U,3);this.c=!1};Y.prototype.start=function(){ma();var a=new ja(this.h.document,this.g);la(this.b,a);na(this)};
+var ma=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},na=function(a){var b=Date.now();W(a.b,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.b,e=l[l.btoa(d+"loader_js")];if(e){e=l.atob(e);
+e=parseInt(e,10);d=l.btoa(d+"loader_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.b,"internal_api_sb"),Z(a,Q(a.a,6)))},function(c){Z(a,c?Q(a.a,4):Q(a.a,5))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=q;b.apply(null,d)}})("__d3lUW8vwsKlB__",function(a){"function"==typeof window.atob&&(a=window.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);
+
+window.__d3lUW8vwsKlB__("WyJkY2Y0ZTJhZDA1ZTNhNmM2IixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4VV9QTlF3R29zSjR3Ymo0U1c2TjJud0NhdGozT3NhZkVxYWdFdjQxV2xmNHlMZEFrSXVINGlJbGJEclIyZUppT0pZc0FJNDdNNFVsbEtvTGFKaEh6Z1x1MDAzZCJdCixbMjAsImRpdi1ncHQtYWQiLDEwMCwiWkdObU5HVXlZV1F3TldVellUWmpOZ1x1MDAzZFx1MDAzZCIsW251bGwsbnVsbCxudWxsLCJodHRwczovL3d3dy5nc3RhdGljLmNvbS8wZW1uL2YvcC9kY2Y0ZTJhZDA1ZTNhNmM2LmpzP3VzcXBcdTAwM2RDQWsiXQpdCiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hYRVFUcG9DSnFoX0FUcmRoay1TaXBiWnY5LWVwdGZyTWNDNEJKalZJVmY2NEU3TVNwckMyUm5VT2oyZXBRbjZiUXk2LXUyZW11SXBlaVFQLWV5P2FiXHUwMDNkMSIsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2wvQUdTS1d4WHZtd2VzYXVwWVllVWVoV3dMejdzWVRhQVU2b25NdS1zR0gtQ21YRjkxMkdhaVRUbVJxaHpXNTVNNDhScU44U01PVW5kUjZsMzhnSnk2b2w0dz9hYlx1MDAzZDJcdTAwMjZzYmZcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hWYkFzS2xaRUFFMDV5NjBTSHpwdnRqUTFBWTZtSENCYWNZZzNoN0xLT25VN29mbHlWTXBKc2ZOX0JFb1EwLTJRdWw2SnlzdjZaMFJrRjRzRXpOP3NiZlx1MDAzZDIiXQo=");</script>
+
+<script src="https://b.st-hatena.com/js/bookmark_button.js" async></script>
+
+</head>
+<body>
+<noscript>
+<div class="msgNoScript">
+当サイトでは、<em>javascript</em>を使用しております。<br>当サイトをご覧になる際には、<em>javascriptを有効</em>にしてください。</div>
+</noscript>
+
+<header>
+<div class="wrap">
+<div id="logo"><a style="float: left;" href="https://www.biglobe.ne.jp/" title="ビッグローブ" class="blogo" onclick="_gaq.push(['_trackEvent','header','logo','Bトップ']);">ビッグローブ</a><h2 class="top-logo"><a href="https://news.biglobe.ne.jp/" title="BIGLOBEニュース" class="bnews"  onclick="_gaq.push(['_trackEvent','header','logo','ニューストップ']);">BIGLOBEニュース</a></h2></div>
+
+<!-- logo -->
+  <div class="h-right">
+    <div class="serach-bx">
+  <form method="get" action="/results.html" name="search">
+    <fieldset>
+      <div class="sfrm">
+        <input type="text" name="q" placeholder="ニュース検索">
+      </div>
+      <div class="sbtn">
+        <input type="submit" name="bg_s.x" value="" onclick="document.search.action='/results.html'">
+      </div>
+    </fieldset>
+  </form>
+</div>
+    <!-- /serach-bx -->
+    <ul class="u-nav">
+      <li><a href="/new/" title="ニュース速報" onclick="_gaq.push(['_trackEvent','header','first_tab','ニュース速報']);">速報</a></li>
+      <li><a href="/ranking/" title="ニュースランキング" onclick="_gaq.push(['_trackEvent','header','first_tab','ニュースランキング']);">ランキング</a></li>
+      <li><a href="/photo/" title="写真ニュース" onclick="_gaq.push(['_trackEvent','header','first_tab','写真ニュース']);">写真</a></li>
+      <li><a href="/video/" title="動画ニュース" onclick="_gaq.push(['_trackEvent','header','first_tab','動画ニュース']);">動画</a></li>
+      <li><a href="/local/" title="地域ニュース" onclick="_gaq.push(['_trackEvent','header','first_tab','地域ニュース']);">地域</a></li>
+      <li><a href="/provider/" title="提供社ニュース" onclick="_gaq.push(['_trackEvent','header','first_tab','提供社ニュース']);">提供社</a></li>
+    </ul>
+    <!-- /u-nav -->
+  </div>
+  <!-- /h-right -->
+</div>
+<!-- /wrap -->
+<nav class="g-nav">
+  <div class="wrap">
+    <ul>
+      <li> <a href="/" title="ニューストップ" class="current" onclick="_gaq.push(['_trackEvent','header','second_tab','ニューストップ']);">ニューストップ</a> </li>
+      <li> <a href="/entertainment/" title="芸能ニュース・エンタメ" onclick="_gaq.push(['_trackEvent','header','second_tab','芸能ニュース・エンタメ']);">芸能・エンタメ</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/entertainment/whole/" title="芸能ニュース・エンタメ総合" onclick="_gaq.push(['_trackEvent','header','third_tab','芸能ニュース・エンタメ総合']);">芸能・エンタメ総合</a></li>
+              <li><a href="/entertainment/movie/" title="映画ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','映画ニュース']);">映画</a></li>
+              <li><a href="/entertainment/music/" title="音楽ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','音楽ニュース']);">音楽</a></li>
+              <li><a href="/entertainment/animation/" title="アニメニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','アニメニュース']);">アニメ</a></li>
+              <li><a href="/entertainment/game/" title="ゲームニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','ゲームニュース']);">ゲーム</a></li>
+              <li><a href="/entertainment/gravure/" title="グラビアニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','グラビアニュース']);">グラビア</a></li>
+              <li><a href="/entertainment/celeb/" title="海外セレブニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','海外セレブニュース']);">海外セレブ</a></li>
+              <li><a href="/entertainment/korean/" title="韓流ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','韓流ニュース']);">韓流</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/sports/" title="スポーツニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','スポーツニュース']);">スポーツ</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/sports/whole/" title="スポーツニュース・総合" onclick="_gaq.push(['_trackEvent','header','third_tab','スポーツニュース・総合']);">スポーツ・総合</a></li>
+              <li><a href="/sports/baseball/" title="野球ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','野球ニュース']);">野球</a></li>
+              <li><a href="/sports/soccer/" title="サッカーニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','サッカーニュース']);">サッカー</a></li>
+              <li><a href="/sports/golf/" title="ゴルフニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','ゴルフニュース']);">ゴルフ</a></li>
+              <li><a href="/sports/battle/" title="格闘技ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','格闘技ニュース']);">格闘技</a></li>
+              <li><a href="/sports/car/" title="車ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','車ニュース']);">車</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/domestic/" title="政治ニュース・社会" onclick="_gaq.push(['_trackEvent','header','second_tab','政治ニュース・社会']);">政治・社会</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/domestic/whole/" title="政治ニュース・社会総合" onclick="_gaq.push(['_trackEvent','header','third_tab','政治ニュース・社会総合']);">政治・社会総合</a></li>
+              <li><a href="/domestic/society/" title="社会ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','社会ニュース']);">社会</a></li>
+              <li><a href="/domestic/politics/" title="政治ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','政治ニュース']);">政治</a></li>
+              <li><a href="/domestic/disaster/" title="天気ニュース・災害" onclick="_gaq.push(['_trackEvent','header','third_tab','天気ニュース・災害']);">天気・災害</a></li>
+              <li><a href="/domestic/people/" title="訃報ニュース・人" onclick="_gaq.push(['_trackEvent','header','third_tab','訃報ニュース・人']);">訃報・人</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/international/" title="国際ニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','国際ニュース']);">国際</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/international/whole/" title="国際ニュース・総合" onclick="_gaq.push(['_trackEvent','header','third_tab','国際ニュース・総合']);">国際・総合</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/economy/" title="経済ニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','経済ニュース']);">経済</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/economy/whole/" title="経済ニュース・総合" onclick="_gaq.push(['_trackEvent','header','third_tab','経済ニュース・総合']);">経済・総合</a></li>
+              <li><a href="/economy/market/" title="市況ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','市況ニュース']);">市況</a></li>
+              <li><a href="/economy/stocks/" title="株式ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','株式ニュース']);">株式</a></li>
+              <li><a href="/economy/business/" title="企業ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','企業ニュース']);">企業</a></li>
+              <li><a href="/economy/release/" title="リリースニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','リリースニュース']);">リリース</a></li>
+              <li><a href="/economy/bizinfo/" title="ビジネスニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','ビジネスニュース']);">ビジネス</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/it/" title="ITニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','ITニュース']);">IT</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/it/whole/" title="ITニュース・総合" onclick="_gaq.push(['_trackEvent','header','third_tab','ITニュース・総合']);">IT・総合</a></li>
+              <li><a href="/it/pc/" title="PCニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','PCニュース']);">PC</a></li>
+              <li><a href="/it/mobile/" title="スマホニュース・モバイル" onclick="_gaq.push(['_trackEvent','header','third_tab','スマホニュース・モバイル']);">スマホ・モバイル</a></li>
+              <li><a href="/it/homeelectronics/" title="家電ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','家電ニュース']);">家電</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/trend/" title="トレンドニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','トレンドニュース']);">トレンド</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/trend/life/" title="生活情報ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','生活情報ニュース']);">生活情報</a></li>
+              <li><a href="/trend/knowledge/" title="雑学ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','雑学ニュース']);">雑学</a></li>
+              <li><a href="/trend/science/" title="サイエンスニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','サイエンスニュース']);">サイエンス</a></li>
+              <li><a href="/trend/surprise/" title="びっくりニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','びっくりニュース']);">びっくり</a></li>
+              <li><a href="/trend/love/" title="恋愛ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','恋愛ニュース']);">恋愛</a></li>
+              <li><a href="/trend/net/" title="ネットニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','ネットニュース']);">ネット</a></li>
+              <li><a href="/trend/gourmet/" title="グルメニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','グルメニュース']);">グルメ</a></li>
+              <li><a href="/trend/child/" title="子育てニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','子育てニュース']);">子育て</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/animal/" title="動物ニュース" onclick="_gaq.push(['_trackEvent','header','second_tab','動物ニュース']);">動物</a>
+        <div class="pulldown">
+          <div class="wrap">
+            <ul>
+              <li><a href="/animal/cat/" title="猫ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','猫ニュース']);">猫</a></li>
+              <li><a href="/animal/dog/" title="犬ニュース" onclick="_gaq.push(['_trackEvent','header','third_tab','犬ニュース']);">犬</a></li>
+              <li><a href="/animal/other/" title="動物ニュース・その他" onclick="_gaq.push(['_trackEvent','header','third_tab','動物ニュース・その他']);">動物・その他</a></li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li> <a href="/workstyle/" title="はたらきかた" class="workstyle-theme" onclick="_gaq.push(['_trackEvent','header','second_tab','はたらきかた']);">はたらきかた</a> </li>
+    </ul>
+  </div>
+  <!-- /wrap -->
+</nav>
+<!-- /g-nav -->
+</header>
+<!-- /header -->
+<div class="wrap">
+  <div id="headline">
+<!-- QUICK NEWS -->
+<!-- FirstReport -->
+<div id="FirstReport"></div>
+<!-- Earthquake -->
+<div id="Earthquake"></div>
+<!-- スーパーバナー -->
+<div id="SPbanner" class="clearfix" style="min-height:250px;text-align:center;padding-top:8px;"> 
+
+<!-- ニュース全体 -->
+<!-- BL-NEWS_HEADER -->
+<div id='div-gpt-ad-1480396131766-0'>
+<script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1480396131766-0'); });
+</script>
+</div>
+
+</div>
+<!-- [END]スーパーバナー --> 
+  </div>
+  <!-- /headline --> 
+
+</div>
+<!-- /速報 wrap -->
+
+<div class="error">
+  <p><h1>お探しのページが見つかりません。</h1></p>
+  <p>該当する記事は削除された可能性がございます。</p>
+  <p>ＢＩＧＬＯＢＥニュースのホームページは<A href="https://news.biglobe.ne.jp/"><B>こちら</B></A>です。</p>
+  <p>約10秒後に自動的にＢＩＧＬＯＢＥニューストップに戻ります。</p>
+</div>
+
+<footer id="footer">
+  <div class="wrap">
+    <div class="sitemap">
+  <h2><a href="/">BIGLOBEニュース</a></h2>
+  <div>    <h3><a href="/entertainment/">芸能・エンタメ</a></h3>
+    <ul>
+      <li><a href="/entertainment/whole/">芸能・エンタメ総合</a></li>
+      <li><a href="/entertainment/movie/">映画</a></li>
+      <li><a href="/entertainment/music/">音楽</a></li>
+      <li><a href="/entertainment/animation/">アニメ</a></li>
+      <li><a href="/entertainment/game/">ゲーム</a></li>
+      <li><a href="/entertainment/gravure/">グラビア</a></li>
+      <li><a href="/entertainment/celeb/">海外セレブ</a></li>
+      <li><a href="/entertainment/korean/">韓流</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/sports/">スポーツ</a></h3>
+    <ul>
+      <li><a href="/sports/whole/">スポーツ・総合</a></li>
+      <li><a href="/sports/baseball/">野球</a></li>
+      <li><a href="/sports/soccer/">サッカー</a></li>
+      <li><a href="/sports/golf/">ゴルフ</a></li>
+      <li><a href="/sports/battle/">格闘技</a></li>
+      <li><a href="/sports/car/">車</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/domestic/">政治・社会</a></h3>
+    <ul>
+      <li><a href="/domestic/whole/">政治・社会総合</a></li>
+      <li><a href="/domestic/society/">社会</a></li>
+      <li><a href="/domestic/politics/">政治</a></li>
+      <li><a href="/domestic/disaster/">天気・災害</a></li>
+      <li><a href="/domestic/people/">訃報・人</a></li>
+    </ul>
+    <h3><a href="/international/">国際</a></h3>
+    <ul>
+      <li><a href="/international/whole/">国際・総合</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/economy/">経済</a></h3>
+    <ul>
+      <li><a href="/economy/whole/">経済・総合</a></li>
+      <li><a href="/economy/market/">市況</a></li>
+      <li><a href="/economy/stocks/">株式</a></li>
+      <li><a href="/economy/business/">企業</a></li>
+      <li><a href="/economy/release/">リリース</a></li>
+      <li><a href="/economy/bizinfo/">ビジネス</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/it/">IT</a></h3>
+    <ul>
+      <li><a href="/it/whole/">IT・総合</a></li>
+      <li><a href="/it/pc/">PC</a></li>
+      <li><a href="/it/mobile/">スマホ・モバイル</a></li>
+      <li><a href="/it/homeelectronics/">家電</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/trend/">トレンド</a></h3>
+    <ul>
+      <li><a href="/trend/life/">生活情報</a></li>
+      <li><a href="/trend/knowledge/">雑学</a></li>
+      <li><a href="/trend/science/">サイエンス</a></li>
+      <li><a href="/trend/surprise/">びっくり</a></li>
+      <li><a href="/trend/love/">恋愛</a></li>
+      <li><a href="/trend/net/">ネット</a></li>
+      <li><a href="/trend/gourmet/">グルメ</a></li>
+      <li><a href="/trend/child/">子育て</a></li>
+    </ul>
+  </div>  <div>    <h3><a href="/animal/">動物</a></h3>
+    <ul>
+      <li><a href="/animal/cat/">猫</a></li>
+      <li><a href="/animal/dog/">犬</a></li>
+      <li><a href="/animal/other/">動物・その他</a></li>
+    </ul>
+    <ul>
+      <li><a href="/provider/blnews/">編集部の旬ネタ</a></li>
+      <li><a href="/help/">ヘルプ</a></li>
+    </ul>
+  </div>  <div>
+    <h3>関連コンテンツ</h3>
+    <ul>
+      <li><a href="https://weather.biglobe.ne.jp/">天気</a></li>
+      <li><a href="https://beauty.biglobe.ne.jp/salon/">ヘアサロン</a></li>
+      <li><a href="https://beauty.biglobe.ne.jp/salon/hair_style/">ヘアスタイル</a></li>
+      <li><a href="https://beauty.biglobe.ne.jp/nail/">ネイルサロン</a></li>
+      <li><a href="https://beauty.biglobe.ne.jp/nail/catalog/">ネイルデザイン</a></li>
+      <li><a href="https://beauty.biglobe.ne.jp/news/">ビューティニュース</a></li>
+      <li><a href="https://gift.biglobe.ne.jp/">ギフト</a></li>
+      <li><a href="https://review.biglobe.ne.jp/">商品レビュー</a></li>
+      <li><a href="https://datsumou.biglobe.ne.jp/">脱毛サロン</a></li>
+      <li><a href="https://job.biglobe.ne.jp/">転職</a></li>
+      <li><a href="https://fashion.biglobe.ne.jp/">ファッション</a></li>
+      <li><a href="/saimu/arbitrary_finishing/adjustment-of-debts-recommendation/">お金のお悩み</a></li>
+      <li><a href="/fudousan/">不動産のお悩み</a></li>
+      <li><a href="/konkatsu/">婚活のお悩み</a></li>
+      <li><a href="/education/">教育のお悩み</a></li>
+      <li><a href="/financial/">金融のお悩み</a></li>
+    </ul>
+  </div>
+</div>
+    <p class="discharge">本サイトのニュースの見出しおよび記事内容、およびリンク先の記事内容は、各記事提供社からの情報に基づくものでビッグローブの見解を表すものではありません。<br>
+  ビッグローブは、本サイトの記事を含む内容によってお客様やその他の第三者に生じた損害その他不利益については一切責任を負いません。<br>
+  ビッグローブは、本サイトの記事を含む内容についてその正確性を含め一切保証するものではありません。本サイトのデータおよび記載内容のご利用は、全てお客様の責任において行ってください。<br>
+<div id="ftlink">
+  <ul class="txtMenu">
+    <li><a href="https://www.biglobe.ne.jp/">ビッグローブ</a></li>
+    <li><a href="https://join.biglobe.ne.jp/?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer">インターネット接続</a>（<a href="https://join.biglobe.ne.jp/ftth/hikari/?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer">ビッグローブ光</a>・<a href="https://join.biglobe.ne.jp/mobile/?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer">格安SIM</a>・<a href="https://join.biglobe.ne.jp/mobile/device/?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer">格安スマホ</a>）</li>
+    <li><a href="https://www.biglobe.ne.jp/adguide/">広告掲載</a></li>
+    <li><a href="https://biz.biglobe.ne.jp/index.html?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer1">法人向け</a>（<a href="https://biz.biglobe.ne.jp/index.html?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer2">光回線</a>・<a href="https://biz.biglobe.ne.jp/sim/index.html?utm_source=biglobe.ne.jp&utm_medium=referral&utm_campaign=b_other&utm_content=footer3">格安SIM</a>）</li>
+    <li><a href="http://support.biglobe.ne.jp/netsenkyo/index.html">ネット選挙運動</a></li>
+  </ul>
+  <ul class="txtMenu">
+    <li><a href="https://www.biglobe.co.jp/">会社概要</a></li>
+    <li><a href="https://www.biglobe.ne.jp/whatsnew/news.html">ニュースリリース</a></li>
+    <li><a href="https://www.biglobe.co.jp/recruit/index.html">採用情報</a></li>
+    <li><a href="https://www.biglobe.ne.jp/privacy.html">個人情報保護ポリシー</a></li>
+    <li><a href="https://www.biglobe.ne.jp/cookie.html">Cookieポリシー</a></li>
+    <li><a href="https://support.biglobe.ne.jp/safesecurity/">安心・安全</a></li>
+    <li><a href="http://support.biglobe.ne.jp/kobutsusyo.html">古物営業法に基づく表記</a></li>
+    <li><a href="http://support.biglobe.ne.jp/">お問い合わせ</a></li>
+  </ul>
+</div>
+<!-- /ftlink -->
+<div id="ftseal"> <a href="https://privacymark.jp/" target="_blank"><img class="lazy" data-original="/img/common/21000300_75_JP.png" alt="プライバシーマーク"></a> <a href="https://www.biglobe.ne.jp/safesecurity.html"><img class="lazy" data-original="/img/common/141120_anan_mark_75.gif" alt="インターネット接続サービス安全・安心マーク"></a> </div>
+<!-- /ftseal -->
+<div id="copyright">Copyright(C)BIGLOBE Inc.</div>
+  </div>
+  <!-- /wrap --> 
+</footer>
+<!-- /footer -->
+
+<div id="page-btn">
+  <a href="https://www.biglobe.ne.jp/" class="btop" onclick="_gaq.push(['_trackEvent', 'all', 'btop_link']);">BIGLOBE<br>トップへ</a>
+</div>
+
+<script async>document.write('<scr' + 'ipt src="https://gdpr.api.bcdn.jp/?' + Math.floor((new Date()).getTime()) + '" charset="utf-8" defer></scr' + 'ipt>');</script>
+<script src="https://cdn.relaido.jp/rplayer/rplayer.js?scenario_id=10094" async></script>
+<script>
+    (function () {
+        //コピーライト
+        var str = 'Copyright(C)BIGLOBE Inc. 1996-' + (new Date()).getFullYear();
+        document.getElementById('copyright').innerHTML = str;
+    })();
+</script>
+
+<!-- 自社広告 -->
+<script src="/js/recommend/side_bar_advertising_1.min.js?2022111801" async></script>
+<script src="/js/recommend/side_bar_advertising_2.min.js?20220714" async></script>
+
+</body>
+</html>
