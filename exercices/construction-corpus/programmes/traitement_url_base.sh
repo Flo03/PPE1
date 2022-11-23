@@ -27,13 +27,17 @@ do
 	then 
 		echo "ligne $lineno: $line";
 		lineno=$((lineno+1));
+		#header=$(curl -sLI $line | egrep "HTTP/.* 200");
 		header=$(curl -sLI $line);
-		#echo "{$header[0][0]}";
-		if [[ "$header" =~ 3..\ Moved\ Permanently ]]
+		#verif_http=$(egrep "HTTP/.* 200" "$header");
+		#header=$(head -n 1 $header);
+		#echo "$header";
+		#if [[ "$header" =~ 3..\ Moved\ Permanently ]]
 		#if [[ "$header" =~ HTTP.*200 ]]
-		then
-			echo "hahahahah";
-		fi
+		#then
+			#echo "hahahahah";
+		#fi
+		#encodage=$(egrep "charset=" $header)
 	else
 		continue
 	fi
