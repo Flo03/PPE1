@@ -32,4 +32,25 @@
 2. Travail de prise en main de git avec les différentes commandes vues en cours
 ## 09/11/2022  
 1. Ajout du fichier `URL_jp.txt` dans le git du Projet
-2. Ajout de `index.html` dans mon PPE1
+2. Ajout de `index.html` dans mon PPE1  
+## 16/11/2022  
+1. Ajout de fichiers exercices dans github
+## 07/12/2022  
+1. création du script make_itrameur_corpus.sh  
+2. 
+## 14/12/2022  
+### Installation wordcloud
+1. Installation de ce qu'il faut pour faire des nuages de mots -> wordcloud  
+2. activation de l'environnement virtuel python `m1-tal`
+3. activation de pip : `python3 -m pip`  
+4. installation de wordcloud : `python3 -m pip install wordcloud`  
+5. commande pour l'execution : `wordcloud_cli --text ./dump-fr.txt --imagefile ./image.png --scale 2 --stopwords motsvides.txt`  
+ou syntaxe recommandé : `python3 -m wordcloud --text ./dump-fr.txt --imagefile ./image.png --scale 2 --stopwords motsvides.txt`  
+- avec `dump-fr.txt` le fichier dump contenant tous les dumps des URLs  
+- avec `image.png` l'image en sortie
+- avec `motsvides.txt` contenant les mots que l'on ne veut pas dans notre nuage de mots
+### Écriture script pour le concordancier
+1. 
+## 01/12/2023  
+1. création script pour itrameur `make_itrameur_corpus.sh`
+2. 
