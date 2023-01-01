@@ -1,0 +1,227 @@
+UTF-8 and Unicode
+
+   Unicode Transformation Format 8-bit is a variable-width encoding that
+   can represent every character in the Unicode character set. It was
+   designed for backward compatibility with ASCII and to avoid the
+   complications of endianness and byte order marks in UTF-16 and UTF-32.
+   ^[1]
+
+   UTF-8 encodes each Unicode character as a variable number of 1 to 4
+   octets, where the number of octets depends on the integer value
+   assigned to the Unicode character. It is an efficient encoding of
+   Unicode documents that use mostly US-ASCII characters because it
+   represents each character in the range U+0000 through U+007F as a
+   single octet.
+
+   UTF-8 is the default encoding for XML and since 2010 has become the
+   dominant character set on the Web.
+
+Standards
+
+     * RFC 3629: UTF-8, a transformation format of ISO 10646. November
+       2003.
+     * The Unicode Standard 5.0, November 2006. [purchase from Amazon.com]
+          + In particular, see the informal description of UTF-8 in
+            sections 2.5 and 2.6, pages 30-32, and a much more formal
+            definition in sections 3.9 and 3.10, pages 77-81.
+
+Articles and background reading
+
+     * UTF-8 and Unicode FAQ for Unix/Linux by Markus Kuhn
+     * Forms of Unicode, an excellent overview by Mark Davis
+     * Wikipedia UTF-8 contains a good discussion of why five- and
+       six-octet sequences are now illegal UTF-8
+     * Unicode Transformation Formats [czyborra.com]
+     * The Absolute Minimum Every Software Developer Absolutely,
+       Positively Must Know About Unicode and Character Sets (No
+       Excuses!), an amusing and informative article by Joel Spolsky
+
+Character Sets
+
+   The MIME character set attribute for UTF-8 is UTF-8. Character sets are
+   case-insensitive, so utf-8 is equally valid. [IANA Character Sets].
+
+   In a modern HTML 5 page, place this tag inside <head> ... </head>:
+<meta charset="UTF-8">
+
+   In an XML prolog, the encoding is typically specified as an attribute:
+<?xml version="1.0" encoding="UTF-8" ?>
+     __________________________________________________________________
+
+   Last modified: Wed Jan 5 12:57:21 PST 2022
+
+   (BUTTON) ◊
+     * ¥∞¨
+     * §º∏
+          + ¥
+          + ¨§
+          + ∞
+          + ∞†
+          + ∞¨
+     * ¨
+          + ¥
+          + ¨¥¨†
+          + °
+          + ∏
+          + ∏†
+          + Ω
+          + ∏∑µ
+          + ∑
+          + ¨ º
+     *
+          + ¥
+          + ≠
+          + ≠∑π
+          +
+          +
+          + ≠©∑∏
+          + º
+     * Ω
+          + ¥
+          + µ
+          +
+          + ∞∑¨
+          + ∞∑§
+          + ∞
+          + Ω
+          + Ω
+          + Ω º
+     * ∏
+          + ¥
+          +
+          +
+          + ©°∑
+          + µ∞∑
+          +
+          + ∏ º
+     *
+          + ¥
+          + ¥
+          + ¨
+          +
+          + †®
+          + º
+     * ∏
+          + ¥
+          + ∑∏º
+          + ∏≠∑®∏
+          + †Ω
+          + ∑¨¥
+          + ∏ º
+     * ≠
+     * IT/º
+          + ¥
+          + ®º
+          + ∏∞∑
+          + ¥∏¥
+          + IT º
+          + ¥
+          + ¥®∞
+          +
+          + º º
+     * §¨†
+     * ∞
+     *
+     * π∞∑∞¨
+     * †
+     * English
+          + ¥
+          + Society
+          + Politics
+          + Economy
+          + Culture
+          + Life
+          + Photo
+          + People
+          + Sports
+          + Entertainment
+          + Opinion
+          + Special
+          + Network
+     * †
+     * † ¨†∞¨
+     * ¥º º
+     * Ω 34º ©§
+
+     * ENGLISH
+     * 2022-12-14 18:26 ()
+
+     * † §¥
+     * ∏∏
+     *
+
+   ÏU97¨ÏU84±ÏU8B Î¨∏
+   (BUTTON)
+   ¥¥∞
+     * †
+     *
+     * ¨
+     * Ω
+     * ∏
+     *
+     * §º∏
+     * ∞∑∞¨
+
+     *
+
+       ∞¨ ____________________ (BUTTON)
+
+     * ¥
+     * †∏¨
+     *
+     * † ¨
+
+   ¥§
+          §º∏ ¨ Ω ∏ ≠ ∏ §¨† ¨†
+
+   π∞∑∞¨
+
+   ¨† ¨∞
+          ¨†≠ º ∞
+
+   ¨±†∏
+          §†¨ º¨ ∞ ¨§ §∏
+
+          ¥¨ † §¥
+
+   †º∞
+          µ¨≠ ∞¨¥ ¨† §†† ∞¨∏ †¨§ ¥§∏
+
+   [INS: :INS]
+   [INS: :INS]
+   (BUTTON) ¥ (BUTTON) §
+   ÏU97¨ÏU84±ÏU8B Î¨∏
+   ¨± †§, `∏ †' ©
+     * (BUTTON) ∞¨µ†∞
+     * (BUTTON) ∞∏
+     * (BUTTON) º¥¥∞
+     * (BUTTON) ®§∞∞
+          + (*) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+
+   HOME ¨ ¨ º
+   ¨± †§, `∏ †' ©
+     * ¥ ∞
+     * π∏ 2022.02.10 16:14
+     * 2022-02-10 16:16
+     * 0
+
+     * (BUTTON) ∞¨µ†∞
+     * (BUTTON) ∞∏
+     * (BUTTON) º¥¥∞
+     * (BUTTON) ®§∞∞
+          + (*) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+          + ( ) §º¨
+
+   ¥ ∞¨º µ†©§
+   (BUTTON)
+   ¥§ (BUTTON)
+   ∏∞

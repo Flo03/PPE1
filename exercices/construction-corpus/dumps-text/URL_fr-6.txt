@@ -1,0 +1,474 @@
+   (BUTTON) Fermer la modale de partage
+
+   Partager
+     * (BUTTON) Partager sur facebook
+     * (BUTTON) Partager sur twitter
+     * (BUTTON) Partager sur pinterest
+     * (BUTTON) Partager sur whatsapp
+     * (BUTTON) Partager sur email
+     * (BUTTON) Partager sur sms
+
+   (BUTTON) Ouvrir le menu principal ELLE, le magazine de toute
+   l'actualité des femmes
+     * Lien vers réseau social mail
+     * Lien vers réseau social facebook
+     * Lien vers réseau social twitter
+     * Lien vers réseau social pinterest
+     * Lien vers réseau social youtube
+     * Lien vers réseau social instagram
+     * Lien vers réseau social tiktok
+
+   Se connecter (BUTTON) (BUTTON) Sauvegarder Sauvegardé Je m'abonne pour
+   1€
+   Le mag
+   (BUTTON) Ouvrir le menu principal ELLE, le magazine de toute
+   l'actualité des femmes
+   Je m'abonne pour 1€
+   Le mag
+   (BUTTON) Ouvrir le modal de recherche
+
+   (BUTTON) Fermer le modal de recherche
+
+   Rechercher sur ELLE
+   ____________________ (BUTTON) Lancer la recherche
+
+   ELLE, le magazine de toute l'actualité des femmes (BUTTON) Fermer menu
+   burger
+
+   Se connecter (BUTTON) Rechercher sur le site
+
+     * TOUTE L'ACTU
+     * Podcasts
+     * Noël
+     * Edition Abonnées
+     * BONS PLANS
+     * LES RENDEZ-VOUS ELLE
+     * MODE
+          + Chaussures
+          + Actu
+          + Robes
+               o Robes de soirées
+          + Shopping Mode
+               o Jeans
+               o Lingerie
+               o Pulls et Gilets
+               o Accessoires de mode
+               o Manteaux
+          + Défilés de Mode
+               o Fashion week
+               o Créateurs
+          + Horlogerie-Joaillerie
+          + Mode de Stars
+          + Conseils
+               o DIY Mode
+               o Morpho mode
+          + Tendances
+               o Push mode
+               o Streetstyle
+               o L'instant mode
+               o Lookbook
+               o It-pièce
+               o Mode par année
+          + Tests & Quiz Mode
+          + Street Style
+          + Carnet de Mode
+     * BEAUTÉ
+          + Actu
+          + Cheveux
+               o Coupe de cheveux
+               o Coiffure
+               o Coiffure de soirée
+               o Coloration
+               o Coiffure facile
+               o Astuces cheveux
+               o Tuto Coiffure
+               o Balayage
+          + Maquillage
+               o Maquillage des yeux
+               o Maquillage de soirée
+               o Astuces maquillage
+          + Soins Beauté
+               o Soins corps & visage
+               o Manucure
+               o Épilation
+               o Bronzage
+          + Tendances
+          + Parfums
+          + Beauté des Stars
+               o Coiffure de stars
+          + Beauté ethnique
+          + Chirurgie esthétique
+          + Tests & Quiz Beauté
+     * FORME
+          + Secrets des Stars
+          + Actu
+          + Régimes
+               o Calcul calories
+               o Guide des calories
+               o Poids idéal
+          + Astuces pour maigrir
+          + Forme
+          + Sport
+          + Tests & Quiz Forme et Santé
+     * CULTURE
+          + Actu
+          + Cinéma
+          + Livres
+               o Grands Prix Littéraires ELLE
+          + Musique
+               o Festival
+               o Concerts
+               o Nos playlists
+               o Le clip de la semaine
+          + Séries
+          + Sorties
+               o Actu
+               o Musés/Expos
+               o Bars
+               o Théâtres
+               o Hôtels
+               o Restaurants
+          + Télé
+          + Programme TV avec Télé 7 Jours
+          + Tests & Quiz Culture
+     * ÉVASION
+     * PEOPLE
+          + Actu
+          + Vie des People
+          + Style
+          + Tapis rouge
+          + Enfants de Stars
+          + Royauté
+          + Bios People
+          + Tests & Quiz People
+     * SOCIÉTÉ
+          + Actu Société
+          + Santé
+          + Politique
+          + Justice
+          + Phénomènes
+          + Femmes à suivre
+          + L'édito
+          + Interviews
+          + L'actu en images
+          + Tests & Quiz Culture Générale
+     * ELLE A TABLE
+          + Actu
+               o Cuisine du placard
+               o Idées menus
+               o Astuces cuisine
+               o Menus de chefs
+          + Cuisine minceur
+               o Entrées light
+               o Apéro minceur
+               o Plats minceur
+               o Desserts light
+          + Recettes
+               o Apéritifs
+               o Entrées
+               o Plats
+               o Desserts
+               o Cocktails
+               o Par ingrédient
+          + Thèmes
+               o Recettes classiques
+               o Cuisine rapide
+               o Recettes faciles
+               o Cuisine du monde
+               o Cuisine de saison
+               o Recettes à petits prix
+               o Pâtisseries
+               o Cuisson
+               o Recettes sans gluten
+               o Recettes végétariennes
+               o Cuisine bio
+          + Menu de la semaine
+          + Accords Mets & Vins
+          + Tests & Quiz Cuisine
+     * ELLE DÉCORATION
+          + News & Tendances
+          + Conseils pratiques
+          + Reportages
+          + Déco par pièce
+          + Déco par couleur
+          + Déco par style
+          + Déco extérieure
+          + Blog déco : Billie Blanket
+     * ELLE ACTIVE
+          + Tests & Quiz ELLE Active
+     * ELLE GREEN
+     * ELLE ZEN
+          + Bien-être
+          + Bien manger
+          + Yoga
+          + Sommeil
+          + Massages
+          + Spas
+     * PSYCHO-SEXO
+          + Actu
+          + Sexualité
+          + Kamasutra
+          + Fantasmes
+          + Couple
+          + Célibataires
+          + C'est mon histoire
+          + Tests & Quiz Psycho-Sexo
+          + Psycho
+     * ASTRO
+          + Horoscope
+               o Horoscope 2023
+               o Horoscope du jour
+               o Horoscope de demain
+               o Horoscope de la semaine
+               o Horoscope amoureux
+               o Horoscope du mois
+               o Caractère des signes
+               o Horoscope Saint Valentin
+               o Calcul ascendant
+          + Horoscope Chinois
+               o Horoscope chinois 2023
+               o Horoscope chinois du jour
+               o Horoscope chinois de la semaine
+               o Caractère des signes chinois
+          + Amour
+               o Compatibilité amoureuse
+               o Compatibilité des prénoms
+               o Profil sexuel
+               o Personnalité des prénoms
+               o Quel homme est il ?
+          + Tarots
+               o Tarot Oui/Non
+               o Tarot amour
+               o Tarot travail
+               o Tarot des stars
+          + Numérologie
+               o Numérologie 2023
+               o Numérologie du couple
+               o Profil numérologique
+               o Numérologie du travail
+               o Calcul chemin de vie
+          + Boule de Cristal
+          + Idées de prénoms
+     * MARIAGE
+          + Robes de Mariée
+          + Actu
+          + Bagues et alliances
+          + Coiffures
+          + Mise en beauté
+          + Accessoires
+          + Préparatifs
+     * MAMAN
+          + Actu
+          + Grossesse
+          + Conception
+          + Bébé
+          + Enfant
+          + Ado
+          + Famille
+          + Tests & Quiz Maman
+     * TESTS & QUIZ
+     * NEWSLETTERS
+     * PODCASTS
+     * J'offre ELLE
+     * ABONNEZ-VOUS
+
+     * Elle
+     * Société
+     * Actu société
+
+     * (BUTTON) Partager sur facebook
+     * (BUTTON) Partager sur twitter
+     * (BUTTON) Partager sur pinterest
+
+#MeToo, épilation, patriarcat… Une mère et sa fille, deux visions du
+féminisme
+
+   Publié le 23 novembre 2022 à 11h34
+   (BUTTON) Sauvegarder Sauvegardé
+
+   Caroline, 60 ans, est la mère de Noémie, 29 ans. Deux générations de
+   femmes d’une même famille qui ont accepté de se prêter au jeu d’une
+   discussion franche et sans filtre sur leur rapport au féminisme.
+
+   Quand on leur demande si elles se déclarent féministes, Caroline et
+   Noémie n’ont pas tout à fait la même approche. La mère se dit «
+   sensible à la cause féministe », quand la fille se dit « féministe »,
+   sans pour autant le « crier sur tous les toits ». Différence de
+   génération ou d’approche de la question ? Caroline, 60 ans estime
+   d’abord que si le sujet ne « passionne pas », c’est aussi parce qu’elle
+   « n’a pas eu l’impression de souffrir d’être une femme dans sa vie
+   personnelle ou professionnelle ».
+
+   Lire aussi >> Doit-on débattre de féminisme avec tout le monde ?
+
+« Je suis d’une génération où les hommes te servent le vin »
+
+   Quand Noémie craint que le message du féminisme ne soit pas toujours
+   bien compris et pollué par les détracteurs qui relèguent le féminisme à
+   « une affaire de femmes ». Un point de vue que partage Caroline qui
+   souligne tout de même que certains détails sont parfois assez
+   évocateurs.
+
+   « Moi je suis d’une génération où les hommes te servent le vin »,
+   détaille celle qui avoue avoir « intériorisé » cette règle de
+   bienséance qu’elle remet aujourd’hui en question, au regard de
+   discussions avec ses filles. « C’est vous, qui m’avez fait réaliser à
+   quel point c’est tellement étrange », lance-t-elle à Noémie. Un détail
+   qui fait partie d’un système patriarcal beaucoup plus large, dont les
+   jeunes générations sont de plus en plus conscientes.
+
+   Pour Noémie ce sont surtout les standards de beauté, auxquels elle ne
+   se plie plus, qui la différencie de sa mère. « Ça fait mal, c’est
+   désagréable, ça coûte de l’argent », justifie la jeune femme qui a
+   arrêté de s’épiler depuis quelques temps. Une décision qui fait sourire
+   Caroline, même si elle avoue : « Je continue à m’épiler par souci
+   esthétique dont je me rends bien compte qu’il est conditionné. »
+
+Une redéfinition des codes depuis #MeToo
+
+   Si les discussions avec ses filles ont fait évoluer sa façon de penser,
+   Caroline reste dubitative sur le rapport des jeunes filles à la
+   séduction. Elle raconte une fois où l’une de ses filles, Justine, était
+   rentrée d’une soirée en lui disant à quel point elle avait trouvé «
+   insupportable » un garçon qui dansait à côté d’elle. « Je trouvais que
+   vous considériez que vous faire draguer, c’était odieux », estime
+   Caroline en s’adressant à Noémie.
+
+   La libération de la parole des femmes sur les comportements sexistes et
+   la dénonciation du harcèlement sexuel qu’elles subissent sont venus
+   redéfinir les codes depuis #MeToo. « Moi j’avais l’impression qu’on
+   pouvait dire ça m’intéresse ou ça ne m’intéresse pas », reprend la
+   sexagénaire qui comprend bien que sa fille ne l’entend pas de cette
+   manière. « Moi si je me fais siffler dans la rue, je me retourne et je
+   me dis “mais c’est qui ce gros lourdaud” », assène Noémie. « Avant ça
+   ne me choquait pas, maintenant peut-être un peu plus », reconnaît
+   Caroline.
+
+20 ouvrages pour contrer le sexisme
+
+   20 Voir la galerie
+   (BUTTON) Fermer la modal de la galerie
+   20 ouvrages pour contrer le sexisme
+
+
+    Par
+
+   Auriane Guerithault
+   Auriane Guerithault
+     * Sexisme
+
+À lire également
+
+     * Ménage, cuisine et placements de produits : les nouvelles femmes au
+       foyer de TikTok et Instagram Édition abonnées
+       Ménage, cuisine et placements de produits : les nouvelles femmes au
+       foyer de TikTok et Instagram
+     * À bout de mères : les femmes épuisées
+       Édition abonnées
+       À bout de mères : les femmes épuisées
+     * #BodyHairDay : les internautes exposent leurs poils pour dénoncer
+       les diktats de la beauté
+       #BodyHairDay : les internautes exposent leurs poils pour dénoncer
+       les diktats de la beauté
+     * « La figure de la marâtre fait de la belle-mère l’incarnation de la
+       mauvaise femme » Édition abonnées
+       « La figure de la marâtre fait de la belle-mère l’incarnation de la
+       mauvaise femme »
+
+   Article précédent
+
+   Coupe du monde : cette tenue symbolique de l’ex-Première ministre
+   danoise
+   Ukraine : un nouveau-né tué dans une frappe russe sur une maternité,
+   selon les secours
+
+   Article suivant
+
+   Ukraine : un nouveau-né tué dans une frappe russe sur une maternité,
+   selon les secours
+
+Les + populaires Société
+
+     * 1.
+       Le gouvernement élargi l’éligibilité au bonus vélo électrique pour
+       2023
+     * 2.
+       « Quand vous regarderez cette vidéo, je serai mort » : un Iranien
+       se suicide en France pour attirer l'attention sur son pays
+     * 3.
+       Édition abonnées
+       Qu’est-ce que le « feminist fishing », ce nouveau stratagème de
+       drague qui trompe les femmes ?
+     * 4.
+       En images. « Le blizzard du siècle » : Les photos impressionnantes
+       de la tempête glaciale qui touche les États-Unis
+     * 5.
+       Édition abonnées
+       En images. Présidentielle, Ukraine, Elizabeth II…Les photos les
+       plus marquantes de 2022
+     * 6.
+       20 citations originales pour présenter ses vœux
+     * 7.
+       Les médecins libéraux en grève malgré la triple épidémie
+     * 8.
+       Vague de froid aux Etats-Unis : 14 images stupéfiantes
+
+Toute l'actu Société
+
+     * Ce que l’on sait de l’éviction éclair de Marie Lajus, préfète
+       d’Indre-et-Loire
+       Ce que l’on sait de l’éviction éclair de Marie Lajus, préfète
+       d’Indre-et-Loire
+     * cheque energie bois
+       Chèque énergie bois : comment obtenir cette aide financière
+       exceptionnelle
+     * L'avocat de Sébastien Raoult, étudiant français détenu au Maroc,
+       saisit le Comité contre la torture
+       L'avocat de Sébastien Raoult, étudiant français détenu au Maroc,
+       saisit le Comité contre la torture
+     * Cette décision est considérée comme une signe de soutien aux
+       manifestations qui ont lieu depuis la mort de Mahsa Amini
+       Une joueuse d'échecs sans hijab provoque la colère de la fédération
+       iranienne
+     * La gynécologue aurait refusé de suivre le couple en raison de la
+       situation administrative du mari, sous le coup d'une OQTF
+       Refus de PMA : un couple franco-albanais dénonce une «
+       discrimination »
+
+   Toutes les infos Société
+
+   Horoscope 2021 Lien abonnement
+
+   (BUTTON)
+
+   Haut de page
+   ELLE, le magazine de toute l'actualité des femmes
+
+Suivez-nous
+
+     * Lien vers réseau social facebook
+     * Lien vers réseau social twitter
+     * Lien vers réseau social pinterest
+     * Lien vers réseau social youtube
+     * Lien vers réseau social instagram
+     * Lien vers réseau social tiktok
+
+Newsletter Société & Débats
+
+   Je m'inscris
+
+Contacts
+
+     * Annonceurs
+     * Abonnez-vous
+     * La rédaction
+
+     * Nos RSS
+     * Mentions légales et CGU
+     * Données personnelles et cookies
+     * (BUTTON) Gérer mes cookies
+     * Conditions Générales de Vente
+     * Foire aux Questions
+     * Le groupe CMI France
+     * CMI Media
+     * ELLE International

@@ -1,0 +1,403 @@
+UTF-8 and Unicode
+
+   Unicode Transformation Format 8-bit is a variable-width encoding that
+   can represent every character in the Unicode character set. It was
+   designed for backward compatibility with ASCII and to avoid the
+   complications of endianness and byte order marks in UTF-16 and UTF-32.
+   ^[1]
+
+   UTF-8 encodes each Unicode character as a variable number of 1 to 4
+   octets, where the number of octets depends on the integer value
+   assigned to the Unicode character. It is an efficient encoding of
+   Unicode documents that use mostly US-ASCII characters because it
+   represents each character in the range U+0000 through U+007F as a
+   single octet.
+
+   UTF-8 is the default encoding for XML and since 2010 has become the
+   dominant character set on the Web.
+
+Standards
+
+     * RFC 3629: UTF-8, a transformation format of ISO 10646. November
+       2003.
+     * The Unicode Standard 5.0, November 2006. [purchase from Amazon.com]
+          + In particular, see the informal description of UTF-8 in
+            sections 2.5 and 2.6, pages 30-32, and a much more formal
+            definition in sections 3.9 and 3.10, pages 77-81.
+
+Articles and background reading
+
+     * UTF-8 and Unicode FAQ for Unix/Linux by Markus Kuhn
+     * Forms of Unicode, an excellent overview by Mark Davis
+     * Wikipedia UTF-8 contains a good discussion of why five- and
+       six-octet sequences are now illegal UTF-8
+     * Unicode Transformation Formats [czyborra.com]
+     * The Absolute Minimum Every Software Developer Absolutely,
+       Positively Must Know About Unicode and Character Sets (No
+       Excuses!), an amusing and informative article by Joel Spolsky
+
+Character Sets
+
+   The MIME character set attribute for UTF-8 is UTF-8. Character sets are
+   case-insensitive, so utf-8 is equally valid. [IANA Character Sets].
+
+   In a modern HTML 5 page, place this tag inside <head> ... </head>:
+<meta charset="UTF-8">
+
+   In an XML prolog, the encoding is typically specified as an attribute:
+<?xml version="1.0" encoding="UTF-8" ?>
+     __________________________________________________________________
+
+   Last modified: Wed Jan 5 12:57:21 PST 2022
+
+   (BUTTON) ◊
+     * ¥∞¨
+     * ∞
+          + ¥
+          + ∞∞¨
+          + ∏∞
+          + ¨†∞
+          + ∏in §¨¨
+          + ©, ∏ ∏ ∞
+          + °∞ ∏∏ ∞
+          + , £§
+          + ∞
+          + ∏∞
+          + ∏in¥ ¨
+     * ¥§
+          + ¥
+          +
+          + Ω
+          + ¨
+          +
+          + ∏
+          + °
+          + NGO
+          + §¨†
+          + º
+          + ¨†
+          + ∞∞ ∑∞
+          + 4.15†
+          + †®
+          + 6∑1 ©†∞
+          + ¨†∏¥
+     * ºº
+          + ¥
+          + ∏ºº
+          + ¨±ºº
+          + ≠ºº
+          + ºº
+          + ∏∏
+          + Ω∏∏
+          + ºº
+          + ∞©
+          + ºº
+          + ∏ºº
+          + ¥¥ ∞†
+          + ¨Ω ºº
+          + ¥ºº
+          + §∏ ºº
+          + ¥
+          + ∞ºº
+          + ∞†
+          + µº
+          + , £§
+          + •†º ∞¨¨
+          + ∞§¨ ©∞¨
+     * ¨§
+          + ¥
+          + ∏¨
+          +
+          +
+          + ∏º
+          + ∏in¥ ¨
+          + ∏ ¨§
+          + ∞¨ ¥
+          + ∞º
+     * º¥&¨
+          + ¥
+          + º¥
+          +
+          + µ∞
+          +
+          +
+          + ∏¥±
+          +
+          + ¨†∏¥
+          + §
+     * §
+          + ¥
+          + ∏∞∞
+          + ∏ ∏¨∑•
+          + ±∏∏¥°
+          + ∏º
+          + ¨∞
+          + ∏º ºº¥º¨
+     * ¥
+
+   UPDATED. 2022-12-14 18:01 ()
+     * ∏∏
+     *
+     * ®ºπ
+
+   ÏU9D∏Ï≤U9Cin ÏU8BU9CÎØºÏU9DU98 ÏU86U90ÏU9CºÎ°U9C ÎßU8CÎU93U9CÎU8AU94
+   ÏU9D∏ÌU84∞ÎU84∑ÏU8B Î¨∏
+   (BUTTON) ¥
+     * ¥§
+          +
+          + Ω
+          + ¨
+          +
+          + ∏
+          + °
+          + NGO
+          + §¨†
+          + º
+          + ¨†
+          + 6∑1 ©†∞
+          + ∞∞ ∑∞
+          + ∏inº
+     * ∞
+          + ∞∞¨
+          + ∏∞
+          + ¨†∞
+          + ∏in §¨¨
+     * ºº
+          + ∏ºº
+          + ¨±ºº
+          + ≠ºº
+          + ºº
+          + ∏∏
+          + Ω∏∏
+          + ºº
+          + ∞©
+     * ¨§
+          + ∏¨
+          +
+          +
+          + ∏º
+          + ∏in¥ ¨
+          + ∏ ¨§
+          + †®
+     * º¥&¨
+          + º¥
+          +
+          + µ∞
+          +
+          +
+     * §
+     *
+          + º∞
+          + ºº µ©
+
+   (BUTTON) º
+
+   ∞¨ ____________________ (BUTTON)
+
+   (BUTTON) ¥ (BUTTON) §
+   ÏU9D∏Ï≤U9Cin ÏU8BU9CÎØºÏU9DU98 ÏU86U90ÏU9CºÎ°U9C ÎßU8CÎU93U9CÎU8AU94
+   ÏU9D∏ÌU84∞ÎU84∑ÏU8B Î¨∏
+   ®º ∏ §
+     * (BUTTON) ¥¥§°
+     * (BUTTON) ¥§
+     * (BUTTON) ∏∞
+     * (BUTTON) ¥¥§§†¨
+     * (BUTTON) URLµ¨
+
+     (BUTTON) ∞¨µ†∞
+   HOME ºº ¨±ºº
+   ®º ∏ §
+     * ∞
+     * π∏ 2022.11.10 12:10
+     * 0
+
+     * (BUTTON) ¥¥§°
+     * (BUTTON) ¥§
+     * (BUTTON) ∏∞
+     * (BUTTON) ¥¥§§†¨
+     * (BUTTON) URLµ¨
+     * (BUTTON) ∞¨µ†∞
+     * (BUTTON) §¨©
+
+     (BUTTON) ∞∏
+
+     (BUTTON) º¥¥∞
+
+     (BUTTON) ®§∞∞
+     * (*)
+     * ( )
+     * ( )
+     * ( )
+     * ( )
+
+   ¥ ∞¨º µ†©§
+   (BUTTON)
+   ¥¥§° (BUTTON)
+   ¥§ (BUTTON)
+   ∏∞ (BUTTON)
+   ¥¥§§†¨ (BUTTON)
+   URLµ¨
+   (BUTTON) ◊
+     __________________________________________________________________
+
+   [¨±ºº]
+   ∞ / '¥∞'
+
+   ¥§¥ º¥ ®º ∏ §. § ®∏ º §¥, ®º ¥§¥ § ¨ º º† ¥§. ¨†¥ ¨, º ∏ ¥ Æ † ¨, ¥ ¨ ±
+   † ¥ º§. ¨ † ∏ ¥ ∏∏¥ ∏ ©º ±®º ª §.
+   ¥∏ ∏∏ ©¥¥¥, ¨ ¨ † º † ¥®¥ §. ∏¨§ ¥¥ ∏ ¨ , ¨ ∏ º ¥¥ ¥§. ∏ ¨†. ®† §º∞ §.
+   ∏∞ ∏ 4B ¥ º© • ¥ µ¥ §. 4B ¥ ∞†, π§, º, ∞ • ¥¥§. ∞∞ ¥µ , º §.( B¥ ∏¨º¨ ∏
+   §.) • º∏ ∞ºº ¥† ∞∞ ∞º §†§ ¥¥, ¥¥ § ®∏ ¥§. †®º ®º © ª§.
+
+   ∏ ∂ † ∞ ¥ •¥ † §. ∏¨† ®∏ ¥º ≥§. ∏ ¥ © ® † §. ∏¨§¥ º ®¨¨ ¨ §† † ¨ ¨†† ¥º
+   §. ∏¨§¥ ®º §©¥ ¥º ∞, ¥¥ ¨¥º † ® ¥∞ ¨º §. § ∞∏£ ¥§ ¥ º †, †º ∞ µ ®ºØ¥ ¨º
+   §
+   ∏∞ ∏ 4B ¥ ´ ® ∏ ®† ∞ ¥º ¥ §¥ §. ¨¥ ¥ ¥ ∏§∏ ±®º † ∞ ∞¥† ¥, ≠ ∞º ∏§∏§¥
+   ®º∏ ¥ ¨∞ ∞ ¨ ∞¨§. ∏º ¥§¥ ∏§ µ± ®? ∏ §. ¥ ¥≠ ∞º ¥ ¥ Ω §.
+   ≠ § ®∏(BM) ¥ §. ¥ª ®º †, ¨§ ∂ §Ω §∞§º †º º¥ ®§. , º¥ §. ≠ ¨†º µ¥ ¥, •,
+   ∏º ∞†§ ¥ º, ∏∏ ¥ª ¨± ∂ π¨º ∞ †º¥ §† §.
+   ¥ ¨¥†∞ ≠º π ± ∞∞ ∏¥ ±•§. ∏¨† 2021 6 ≠¨ ¨†∞¨ ∞º, ≠º ¥¥ ∏ ∏§∏ ∞ º ¨¨§. ®±
+   ∏ ∞¥ †§ µ¥ º∞, ¨± ∞¥ †§ µº ∏ § µ¥ 42.8% 41.7% ΩΩ ∞§.
+   § π∏ ® ∏ § ∞¨ ∂ º §º , ∏¥ ∏¥ º† • ∞ º¥§. ¨±§º † ®† ∏, ®† ± ∂ © ¥º §.
+   º† ¥¥ ®¥, ∏¥ † º¥ §. º ™ ® ¨©† ∏ ≠ Ω, ∏∞ ©∞ µ† Ω, ∏¨† ∏∏ ¨ ¨ Ω¥ ® ¨º •
+   º¥§. ∏∞ ∏ § ®∞ †¥¥ ¥®. . . ©∞. ∏ ®† ∞≠ ∞¨º ¨† ¥§.
+
+
+
+
+   © ∏in ¥®¨ ¨∞¨
+   Î∞U95ÍµU90ÏU97∞
+   ∞ §∏∞¨ ¥∞
+   [index.php?reg_date=2022-11-10&modify_date=2022-11-10&seq_local=8&seq_p
+   ost=91978&url=http%3A%2F%2Fwww.incheonin.com&title=%EB%AA%A8%EB%91%90%E
+   B%A5%BC+%EC%9C%84%ED%95%9C+%ED%8E%98%EB%AF%B8%EB%8B%88%EC%A6%98%EC%9D%8
+   0+%EC%9E%88%EB%8B%A4&head=%EC%96%B4%EB%A0%A4%EC%9A%B4+%EC%9D%BC%EC%9D%B
+   4%EC%A7%80%EB%A7%8C+%EB%AA%A8%EB%91%90%EB%A5%BC+%EC%9C%84%ED%95%9C+%ED%
+   8E%98%EB%AF%B8%EB%8B%88%EC%A6%98%EC%9D%80+%EC%9E%88%EB%8B%A4.+%EA%B2%8C
+   %EC%9E%84+%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4+%EB%AA%A8%EB%8D%B8%EB%A1
+   %9C+%EC%98%88%EB%A5%BC+%EB%93%A4%EC%9E%90%EB%A9%B4%2C+%EA%B2%8C%EC%9E%8
+   4%EC%9D%80+%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%A1%9C+%EB%84%98%EC%96%B4%EC%9
+   8%A4%EB%A9%B4%EC%84%9C+%EB%8B%A4%EC%96%91%ED%95%9C+%EC%82%AC%EB%9E%8C%E
+   C%9D%84+%EB%8C%80%EC%83%81%EC%9C%BC%EB%A1%9C+%EC%82%BC%EA%B3%A0+%EB%B0%
+   9C%EC%A0%84%ED%95%B4%EC%99%94%EB%8B%A4.+%EB%8F%88%EC%9D%80+%EC%A0%81%EC
+   %A7%80%EB%A7%8C+%EC%97%AC%EC%9C%A0%EC%8B%9C%EA%B0%84%EC%9D%B4+%EB%A7%8E
+   %EC%9D%80+%EC%82%AC%EB%9E%8C%2C+%EC%9D%BC+%EC%8B%9C%EA%B0%84%EC%9D%80+%
+   EA%B8%B8%EC%A7%80%EB%A7%8C+%EC%97%85%EB%AC%B4+%EA%B0%95%EB%8F%84%EA%B0%
+   80+%EB%82%AE%EC%95%84%EC%84%9C+%EA%B2%8C%EC%9E%84%EC%9D%84+%EB%B3%91%ED
+   %96%89%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EC%82%AC%EB%9E%8C%2C+%EB%
+   8F%88%EC%9D%80+%EB%A7%8E%EC%A7%80%EB%A7%8C+%EC%8B%9C%EA%B0%84%EC%9D%B4+
+   %EC%97%86%EB%8A%94+%EC%82%AC%EB%9E%8C+%EB%93%B1%EC%9D%84+%EB%82%98%EB%8
+   8%A0%EC%84%9C+%EA%B0%81%EA%B0%81%EC%97%90+%EB%A7%9E%EC%B6%94%EC%96%B4+%
+   EC%A0%91%EA%B7%BC%ED%95%9C%EB%8B%A4.+%EB%8D%95%EB%B6%84%EC%97%90+%EB%88
+   %84%EA%B5%AC%EB%82%98+%EC%9E%90%EC%8B%A0%EC%97%90%EA%B2%8C+%EB%A7%9E%EB
+   %8A%94+%EC%84%B8%EC%83%81%EC%97%90+%EC%A0%91%EC%86%8D%ED%95%B4%EC%84%9C
+   +%EB%B3%B8%EC%9D%B8%EC%9D%B4+%ED%8E%B8%ED%95%9C+%EB%B0%A9%EC%8B%9D%EC%9
+   C%BC%EB%A1%9C+%EC%84%B1%EC%B7%A8%EB%A5%BC+%EC%96%BB%EC%9D%84+%EC%88%98+
+   %EC%9E%88%EB%8B%A4.%EC%9D%B4%EA%B1%B8+%EC%9D%B8%EB%AC%B8%ED%95%99%EC%97
+   %90+%EC%A0%81%EC%9A%A9%ED%95%B4%EB%B3%B4%EB%A9%B4%2C+%EB%88%84%EA%B5%AC
+   %EB%82%98+%EA%B0%81%EC%9E%90%EC%9D%98+%EC%9E%90%EB%A6%AC%EC%97%90%EC%84
+   %9C+%ED%95%A0+%EC%88%98+%EC%9E%88%EB%8A%94+%EB%A7%8C%ED%81%BC%EC%9D%98+
+   %ED%98%81%EC%8B%A0%EC%9D%84+%EC%9D%B4%EB%A3%A8%EB%A9%B4+%EB%90%9C%EB%8B
+   %A4.+%EA%B7%B8%EB%9F%AC%EB%8B%A4+%EB%B3%B4%EB%A9%B4+%EA%B7%B8%EA%B2%8C+
+   %EC%8C%93%EC%97%AC%EC%84%9C+%EC%A0%9C%EB%8F%84%EC%A0%81%2C+%EC%82%AC&se
+   q_news=80&movie=n&view_url=http%3A%2F%2Fwww.incheonin.com%2Fnews%2Farti
+   cleView.html%3Fidxno%3D91978&photo=202211%2F91978_130637_384.jpg]
+     * (BUTTON) ¥¥§°
+     * (BUTTON) ¥§
+     * (BUTTON) ∏∞
+     * (BUTTON) ¥¥§§†¨
+     * (BUTTON) URLµ¨
+     * (BUTTON) ∞¨µ†∞
+
+   ≠
+   ≠ § µ¨† µ§.
+   ∏ ≠†µ?
+
+   ∏
+   ____________________
+
+   (BUTTON)  ≠
+   (BUTTON) ◊
+   0 (BUTTON) • ¥ µ§.
+   ∏∏
+   ¥ __________ ∏ __________
+   ¥©
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   0 / 400 (BUTTON)  ±
+   ∞∞
+   †¥ ∏∏∑∏ µ¥
+   ®∞§ µ§.
+   ∏∏
+     __________________________________________________________________
+
+   ¥
+   ____________________
+
+   ∏
+   ____________________
+
+   ±©
+     __________________________________________________________________
+
+   (BUTTON)  ∏
+   (BUTTON) ◊
+   [INS: :INS]
+     __________________________________________________________________
+
+   [INS: :INS]
+   [INS: :INS]
+   ¥ ∏ ¥§
+   1 °∑≠º∑∞ß 5 3≥ ¥ ©µ... ∏ †
+   2 ∞∑¨ ≠ §§... ∏ º¨ 84° 3µ ''
+   3 ∞ß ¥§ ¨ ¥¨... ∏Ω≠-• ¨ ª
+   4 1∞ µ§... ° `º'
+   5 ∏ ¨µµº¨ ∏©... ¥ ¥¨∑≠∏ ¨
+   6 " §"... ®∏ ≠ ∏ ¨ 5≥
+   7 ∞§® ∞ µ©... ∏, DCRE '§ '
+   8 ® AA10-1 'e∏∏' ® ¥§
+   9 ∏1∏† ∏¨≠ 5 ¨ § §∏
+   10 ∏ ® º∞® µ º º ∞
+   [INS: :INS]
+   ¨†∞
+   <'∏ ¨ ...>', ¥ 2∞ ¥ §§
+   † §, π ®§
+   ∞¨§ ∞ª ¥¨ †º, 3¨
+   † ¨ '' ª§
+   ºº
+   †º ∞§Ω† ∏ §º
+   ∏ ∞∏, º ∞
+   [INS: :INS]
+   ∏in§¨¨
+   §∏ ©∞ †, 2022 ∏º
+   º ® ∏§ ∏ ¥
+   ´ ... º∏µ
+   ∞ •®®() ¨ ¥º∞
+   [INS: :INS]
+
+   ºº ® ∏∞∑ ¥§ 5,000º µ ®
+   301-0040-4504-51 / ∏¨¥∏∏
+
+   ÏU9D∏Ï≤U9Cin ÏU8BU9CÎØºÏU9DU98 ÏU86U90ÏU9CºÎ°U9C ÎßU8CÎU93U9CÎU8AU94
+   ÏU9D∏ÌU84∞ÎU84∑ÏU8B Î¨∏
+   ∏∏ †¥ ® ∏¥®©® ≠¥∏
+
+
+     * ∏≠ ∏¨ 78 ∏∏†∞º∞ 1001∏
+     * (º)∏¨¥∏∏
+     * ∏in
+     * ¨±∏ : 131-86-18415
+     * ∏ ∏∏ : °
+     * : 032-439-4432
+     * µ©º(¥,¥) : insightic@naver.com
+     * ≠¥∏ : °
+     * ±∏ : 01032
+     * ±º : 2009-12-23
+     * º : 2009-12-23
+     * Copyright © 2022 ∏in. All rights reserved. mail to
+       intersin@daum.net
+
+   NDÏU86U8CÌU94U84ÌU8A∏
+
+   (BUTTON)

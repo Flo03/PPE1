@@ -1,0 +1,393 @@
+UTF-8 and Unicode
+
+   Unicode Transformation Format 8-bit is a variable-width encoding that
+   can represent every character in the Unicode character set. It was
+   designed for backward compatibility with ASCII and to avoid the
+   complications of endianness and byte order marks in UTF-16 and UTF-32.
+   ^[1]
+
+   UTF-8 encodes each Unicode character as a variable number of 1 to 4
+   octets, where the number of octets depends on the integer value
+   assigned to the Unicode character. It is an efficient encoding of
+   Unicode documents that use mostly US-ASCII characters because it
+   represents each character in the range U+0000 through U+007F as a
+   single octet.
+
+   UTF-8 is the default encoding for XML and since 2010 has become the
+   dominant character set on the Web.
+
+Standards
+
+     * RFC 3629: UTF-8, a transformation format of ISO 10646. November
+       2003.
+     * The Unicode Standard 5.0, November 2006. [purchase from Amazon.com]
+          + In particular, see the informal description of UTF-8 in
+            sections 2.5 and 2.6, pages 30-32, and a much more formal
+            definition in sections 3.9 and 3.10, pages 77-81.
+
+Articles and background reading
+
+     * UTF-8 and Unicode FAQ for Unix/Linux by Markus Kuhn
+     * Forms of Unicode, an excellent overview by Mark Davis
+     * Wikipedia UTF-8 contains a good discussion of why five- and
+       six-octet sequences are now illegal UTF-8
+     * Unicode Transformation Formats [czyborra.com]
+     * The Absolute Minimum Every Software Developer Absolutely,
+       Positively Must Know About Unicode and Character Sets (No
+       Excuses!), an amusing and informative article by Joel Spolsky
+
+Character Sets
+
+   The MIME character set attribute for UTF-8 is UTF-8. Character sets are
+   case-insensitive, so utf-8 is equally valid. [IANA Character Sets].
+
+   In a modern HTML 5 page, place this tag inside <head> ... </head>:
+<meta charset="UTF-8">
+
+   In an XML prolog, the encoding is typically specified as an attribute:
+<?xml version="1.0" encoding="UTF-8" ?>
+     __________________________________________________________________
+
+   Last modified: Wed Jan 5 12:57:21 PST 2022
+
+   (BUTTON) ×
+     * ´°¬
+     * °¡
+          + ´
+          +  ·°
+          + ¡
+          + ¹
+          + ¤¸
+     * °
+          + ´
+          + ´¡·¡
+          + ¨·°°
+          + °· µ
+          + ´·
+     * µ·¬¬
+          + ´
+          + µ
+          + ´
+          +
+          + °
+     * ¸
+          + ´
+          + ¨©·
+          + ¬·
+          + ¤¼
+          + µ°·¸
+          + ¨·½
+     * ·¬
+          + ´
+          +
+          + ¬·¼
+          +
+     * ¤¼¸
+          + ´
+          + ¸°°
+          + ¼¼
+          + ¸¼·
+          + ¨¬©
+     * ¬´¤¸
+          + ´
+          + °¨¤
+          + ¤¸ µ
+          + ´´´
+
+     * UPDATED. 2022-12-14 17:12 ()
+     * ¸¸
+     *
+     * ¨¼¹
+
+   (BUTTON)  ´
+     * °¡
+          +  ·°
+          + ¡
+          + ¹
+          + ¤¸
+     * °
+          + ´¡·¡
+          + ¨·°°
+          + °· µ
+          + ´·
+     * µ·¬¬
+          + µ
+          + ´
+          +
+          + °
+     * ¸
+          + ¨©·
+          + ¬·
+          + ¤¼
+          + µ°·¸
+          + ¨·½
+     * ·¬
+          +
+          + ¬·¼
+          +
+     * ¤¼¸
+          + ¸°°
+          + ¼¼
+          + ¸¼·
+          + ¨¬©
+     * ¬ 
+          + ¬ 
+          +
+     * ¬´¤¸
+          + °¨¤
+          + ¤¸ µ
+          + ´´´
+
+   °¬ ____________________ (BUTTON)
+
+   IFRAME:
+   //kitweb.tadapi.info/network/adapi.php?a=babytimes_p_at_ltf_a01_120x600
+   &refercheck=101
+
+   IFRAME: babytimes_p_at_rtf_a02_120x600
+
+   (BUTTON) ´ (BUTTON) ¤
+   ë² ìU9D´ë¹U84íU83U80ìU9EU84ì¦U88
+   ¸ ¼ ¬´ ?
+     * (BUTTON) °¬µ °
+     * (BUTTON) °¸
+     * (BUTTON) ¼´´°
+     * (BUTTON) ¨¤°°
+          + (*) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+
+   HOME ·¬ ¬·¼
+   ¸ ¼ ¬´ ?
+     * ¸ °
+     * ¹¸ 2022.01.12 10:00
+
+     * (BUTTON) °¬µ °
+     * (BUTTON) °¸
+     * (BUTTON) ¼´´°
+     * (BUTTON) ¨¤°°
+          + (*) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+          + ( ) ¤¼¬
+
+   ´ °¬¼ µ ©¤
+   (BUTTON)
+   ´¤ (BUTTON)
+   ¸° (BUTTON)
+   ´´¤¤ ¬ (BUTTON)
+   ¬+ (BUTTON)
+   ¤´´ (BUTTON)
+   ¤´¸ (BUTTON)
+   ¤´´¼ (BUTTON)
+   °¤¸ (BUTTON)
+   URLµ¬
+   (BUTTON) ×
+     __________________________________________________________________
+
+     ± ´ '¨°´ '
+   ¬ °¬ °¼ µ ± °¸ ¬ ¬¸
+   (ìU82¬ì§U84=Unsplash) (¬=Unsplash)
+
+   [ ´=¸ °] 2015° °¬¼ ¬¸ ´ ¼ ±¥ ¨´ ¤. ¨¼¸ ¤¤°¤° ¬ , ¸  ¨°´ ¬ ¼ ¼¼¤ ´ ¤
+   `¸'´¤. ´ ¸´ ´´¸ ¬ ¸ ¨°´  ¤´ ¸?
+
+   ¸(Feminism)´ ©´ `Femini-`(¬±) + `-ism'(¼) ©±´ °¬ ¬±¼¼  ¤. ¼¼ 1837 ¤   ¼
+   ¬   ¤¼ ¸¬ ´¹ ©´¼ ¤´ ¤  ¤¸ ¼° 18¸° ¼  ½ ¨ ¼ ´ ´ ¤´¤. ´ 20¸° ¬± ¸ ¸° ´ ¬±
+   ¬¸ ´¸ ¬¼ ¨±¼ ±  ¥ ©   ¬´¼  ´´   ¤.
+
+   ¬ 3 ¬° ¬ ¸ ­¬¼ µ ´´´´ ¤¼ ¤.
+
+   18¸° ¼  ½   ½¼ ¸ ´±   ± ´± ¸ ± ¬¼ ¬ © ¼¤. ¸¬ ¸´ ±¤ ¸ ¹ ¬± ¸ ¤. ½¼¤´ ¬±´
+   ¨±¼ ± ´±   ¤  ° ¸´¤. ¼ ½¼¤ "¬± ¨±¼ ± ´±   ¼ ¨±¼ ± ¬¼ ¼´¼ ¤"¼  ¼¥¼° ¼ µ´
+   ¼¸ ±± ´ ´´¤. ¸¤¸¼  ¬ `¬ ¸¤´¬¸' ´ ¤.
+
+   ¬ ¸¤´¬¸ ½ ¸ ¸¤¸ ´¤. ¸ ¤ ¸ ´ "¬± ¬¡ ¼ ¤"¼  ¼¥ ° ° ¸ `¬± ¬ ¹¸'(1792) "¬±
+   ¨±¼ ± ¡ ¼ ¤"  ¼¥¤. ¸¤´¬¸ ¨±¼ ¬± ¸ ´´  ¤  ¼¥° ± ´£¼ µ©¤. ¸¤´¬¸ ¬ ¼ ¤¬¼ ¹
+   ¬ µ¼ ´ ¤¬ ´ ´©¤´° ¸ 100¬ ¤ ´ 20¸° ´¤´ ¸(1882~1941)   ¨(1869~1940) ´ ¬ 
+   ¬¤.
+
+   19¸°° 20¸° ¸ ´ ¨ µ´ ¨±¼ ± ¬¼ »¼¤ ¼° ¬±     ´ ¹´¤. ´ ° ¼ ¸, ¨, ¬° ±   ¬
+   ¼ ¨ ¬´ ´´¼° ¹ 1890 1920 ¬´ ¸­¼ ­ ± ¼´¬ ¬± ¸ ´´ µ¬´¤. ´ °¼ °´ 1893 ´ ¬±
+   ¬ ´¥ ¼°, ´ 1920 ¬± ¸ ¸ ¤. °¬¼ ¬± ¸ ¬ 1948 ´© ´ ¤ «  °°¤.
+
+   ´ ¬ 1960 ´¤´ ¸ ´ ¨ ¼  ¬´ ¥ ±, ¨±´ ¤´     ¬,   © ¼ ´ ¨ ´ ­´¼ ¤.
+
+   1963  ° ¬ `¬±±  '¼ µ´ ¸ 2¼ °¤. ¬° ¬ ¬±¤´ ¼¸ ¼ ¬´ ¼ ¶ ± »    ¨±¼ ¬±±´ ¼
+   ¬ ¬¼ ¤. `¬±±  ' ° ¥ ´° 1963 `¼¸ ¼' ±´ ° ¥ ¸¤¼° ´¼ µ´ ¬ ` ¬± ´ ´¸'¼ ­
+   »¤.
+
+   ´ 1970 ¼¸¤ ´´¤¤ ´¸ ¿ `± '¼ `± ' µ´ ¼ ¸ ¤° ¬±  ¼ ±¤. ´¤ ¼ ° ¬´ ¸ ° ° ¤ ¬
+   ¬°¸ ¸¼ ° ¤. ´´¤¤ ½° ¨± ° ¼¸ ¨ ¬±¼° ¬± ´© ´ ¼°  µ´ ¬±´ ± ¤¤ µ´¼ ¤  ¼¥¤.
+   ´ ´¸ ¿ ¸ ¨ °° ¥ ¸ ¨± °¼ °¤° ¸ ¥¼ ´´  ¼¥¤.
+
+   ´¬ ¼ ½¥ ¹ µ¼° ° ¸ »¼ 70 ¤´° ´ ±¼ ¨ ´°  `¬¼ ¸'´ ¤. ¸ ¸ ¸, ¬¤¸ ¸´¼  °´ °
+   ± ´ ¸ ¤ ½¥ ´´´ ¬ ´¼ ¸ ­ ¥¸¼ · ¤. ¸   80 ¸´ ¬±´¼ ´¼ ¤¬° ° ´¼ ¸´¼ ¸¼ ´¸
+   ¸´   ¸ ´¼ µ ¤ ¤.
+   (ìU82¬ì§U84=Unsplash) (¬=Unsplash)
+
+   °¬¼ ¸´ ° ´ ¬¡ 2015 ´ ¸ ´ ¼ ¼´ ¼ ¼ ¼´ ´ ¤´ ¡ ¬´ ±´ ´  ¤.
+
+   2018 ­¼¼´ ¬ °¬ ¤¸¬ `µµ½'¼ ¨ ¬¼¸°¼ µ´ ­¬ ± ¬ °¬¼ ¤ ¤. ´¹ °¬ ¤ ¸ ´ ¥ ¨±½
+   , ¬±½ ¤ µ´ ¤. ´¼ `¤' 41.5%, `¤' 40.2% ½½ ´° ¹ 20 ¨ ¬´ ¹ ° ¼ ¬¤. 20 ¬±
+   ½° 64.0% ¸ ¼°, 20 ¨± ½° 14.1%´ ¬ ¤. ´ 20 ¨± 75.9% ¸ ¤  µ¤.
+
+   ¸ ´  ^¨±¬ ¬(39.9%) ^¬±´´ ¼´¼ ´ ½° (37.2%) ^¨± ¤° ¸(3.1%)¼ ¬¤. ´ 20 ¬±
+   ½° ^¨±¬ ¬´ 50.1% ^¼´¼ ´ ½° 38.9%¼° 20.630 ¬± ½° `¨± ¤'¼ ´  ¸ ¤ µ ¤.
+
+   ¸ ´  ^¸´ ¬¤ ¨±¤¼(38.2%) ^¨ ¨´¼ ¸ ¬±¤ (29.9%) ^   ¸ (18.3%)¼ ¼° 20 ¨±
+   78.1% 30 ¨± 47.6% `¸´ ¬¤ ¨±¤¼' ¤  µ ¼ ¤¤.
+
+   ­¬ 20~30 ¼ °¬ ¸ ¬ °¬ ½° ¸ ¸, ± ¨´ ¬ ¬¤.
+
+   ¸ ¸ ¸¼ ´´ `¸ ¬±°¼', `¨±¤ ­©', `¸¤¸ µ©', `¸ ½ °', `¸ ¹ ¬' ­© ¨ ± ¨´ ¬ ¼°
+   ¹ 20 ¸ ¨´ ¤¤.
+
+   `' `¸¬´' ­© ±¨´ ¬ ° ¬± `' `¸¬´' ¨ 70% ´( 78.1%, ¸¬ 88.1%), ¨± ­© ¨´ ¬
+   ¬¤( 28.7%, ¸¬ 56.7%).
+
+   ¬±¤ ¬± ¨ ¬± ¬±(¤ 61.1%, ¨ 89.0%)´ ¨±(43.4%, 45.8%)´¤  , ¨±¤ ¨± ¨ ¬±
+   ¨±(¤ 68.0%, ¨ 70.1%)´ ¬±(58.5%, 54.7%)´¤ ¤. ¤ ­© ¨ 19¸~24¸ ±¨´ ¥ ¬ ¬¤.
+   ¹´¬­¼ `¨±¤ ¬±' ­© 25¸~29¸  ¼ ¬±(68.2%)´ ¨±(67.2%)´¤ ¨±¤ ¬¤  ¼ ¬¤.
+
+   ´ 2021 ¬´ ° ­¼ ¹ ± °° ¸ ´ ±¥¤. ­¼´ ´ 6 ­¬ ¨ ¬ °¬ °¼ ­¼¤ ´´ ¸ ¸¤¸ °   ¼
+   ¬¬¤  ´¤. ´¹ ¬ °¬¼ ´´´´ `¸.6¸¤¸ °´ ' ¸ "¤" 52.7%, " ¤" 35.8% ¬¬¤. ¨± ½°
+   ¸ °´  ¤ µ´ ¼°, ¬± °´  ¤ µ¼ ¸ ¤ µ´ 42.8% 41.7% ½½ °¤.
+
+   30 ´ ¨± ¸ ¼ 30 ´ ¬± ¸ ´ ¸ ¸ ´´´´ ¤¼ ¤.
+
+   ¼ 30 ´ ¨± ½° ¤¸ ¬ ´¼ ´ ¸ ° ±¥´ ¼ ¬° ´ `¸´ ¬¤ ¨±¤¼'(38.2%) ­© ´´¼ ¤. 30
+   ´ ¨± ¼¸¤´ ­ ¸´ ¼´ 2010 ´ ¤ `¸'¸ ¸  ¨± ´ ¼ ¤¼ ´ ± ¨ ± ´ ´ ° ¤  ¨ ¨ ´
+   ¹¸¤  ¬°° ¸´¤.
+
+   ¨± ¸ °± ¸ « °¤¤. ¸ ´  20 ¨± "¸ ¨° °± ¸¤´ ¨± ¸ ´¤"  ´¤. 20.630 ¨±¤´ ´¤ ­
+   °¸¸ ¨± ¸ ­¨ ¼ ¸° ´¤ ¤¤ ¨±°´´ ¬±¨ ½° "¨ ¼ ¬ ¸°  ¸¬, ¤ ¸ ¼"¼ ¼ 20.630 ¨±
+   ½° ¤ ´¤. ´¤´ ¼° ´¸   ¼ ´ ¨ ±´ ¬  °± ¸´ ¼° ¬¡ 2030 ¸ ¼ °´ ¸ ´ ­¨¼¼
+   ¬¼¼¨¤  ¼  ´¤.
+
+   30 ´ ¬± ¸ ¨ ½° ´ ¤´¤. 30 ´ ¬± 30 ´ ¨±¼   ¼, ¹ ¹¬´ 2000 ´¼ ª  ¸ ¬ °¬¼ ¼
+   ¸ ¼¥´ ¹ ¸, ¤, ¤¸¤¼ ª  30 ´ ¬±¤ ¸ ¼ ´´° ¸´¤. ´ ¬  °¬ °¼ ^¨±¬ ¬(39.9%)
+   ^¬±´´ ¼´¼ ´ ½° (37.2%)¼ µ´ ¨± ¤´¼ µ´¤ ¨¬ ¤ ¼ ¤.
+
+   ¬¤ ¸ ¬ µ´ ´¬ ¤. ¸´ ¬ ´ ¸   ´¬ ¼ ¬´ ° ¸´¤. ´   °¼ ¸´ ±¼ ¸ ´ ¼ ¬¬ ±¼ ¥ © 
+   ´ ¬¤´¤. ­ °°   ¨ UN ¬±   ¤¼¼ µ´ ¸¤¸¼ ¨´¼ «´¤´ ¨´ ´ ´   ¨´ ¤ ¨¨¸ ¬ ´ ¤ 
+   ° ´¬ ¼°, ¨± ¨ ´¼° , UN ¬± ¬ ´ ­ ±, , ¸ ±¼ ¸ ¨ ¼ ¬  ¤.
+
+   ´´¤ °¬ ­   ´¼ ¹¨¼ ° © µ© ¬ ± ° ¥ ¼ ¤ ´¤.
+   ©  ´ ´¨¬ ¬°¬
+   ìµU9CìU9D¸íU99U98 ê¸°ìU9EU90
+   ¸ ° ¤¸°¬ ´°
+
+   IFRAME:
+   //kitweb.tadapi.info/network/tadtext5/adapi.php?a=babytimes_p_at_tadtex
+   t5_670x200&refercheck=101
+     __________________________________________________________________
+
+   ­
+   ­ ¤ µ¬  µ¤.
+   ¸ ­ µ?
+
+   ¸
+   ____________________
+
+   (BUTTON)  ­
+   (BUTTON) ×
+   0 (BUTTON) ¥ ´ µ¤.
+   ¸¸
+   ´ __________ ¸ __________
+   ´©
+   ____________________________________________________________
+   ____________________________________________________________
+   ____________________________________________________________
+   0 / 400 (BUTTON)  ±
+   °°
+    ´ ¸¸·¸ µ´
+   ¨°¤ µ¤.
+   ¸¸
+     __________________________________________________________________
+
+   ´
+   ____________________
+
+   ¸
+   ____________________
+
+   ±©
+     __________________________________________________________________
+
+   (BUTTON)  ¸
+   (BUTTON) ×
+    
+     __________________________________________________________________
+
+   IFRAME:
+   //kitweb.tadapi.info/network/adapi.php?a=babytimes_p_at_r_a01_300x250&r
+   efercheck=101
+
+   ¸°´¤
+     * 1
+       ¨ ¸¸ ` ¬4¨¬´°©' °©¥ ±  ¼
+     * 2
+       ¸¬, `¸ ´¥ ¼ '  ¬ 
+     * 3
+       ¤ 2025  ·´°´ ` ´µ©' ¤
+     * 4
+       LH,  ¥­·¼´ ± µ¼ 3835¸ µ
+     * 5
+       12¼° 12¸ ´ ­ 19 2± 
+     * 6
+       ¬, ±¼° µ  
+     * 7
+       ­ ¸¤´ ± ¸´°© °±
+     * 8
+       " ´ ¸´¤  ­ "
+     * 9
+       `¤´¬·¤° ' ´¤, ¨¸ ´
+     * 10
+       LG ¬¤, ¥  `U+¬' 7¸ ´½
+
+   IFRAME:
+   //kitweb.tadapi.info/network/adapi.php?a=babytimes_p_at_r_a02_300x250&r
+   efercheck=101
+
+   ´´¤
+   "±, 24 ¸¬  ­¸"
+   "±, 24 ¸¬  ­¸"
+   " ¨ ¾¤ ­ °¬¸!"
+   " ¨ ¾¤ ­ °¬¸!"
+   "¡´ °   ¬©´  ?"
+   "¡´ °   ¬©´  ?"
+   "°¬ ´ ´ RSV ¼ ¨ ©´!"
+   "°¬ ´ ´ RSV ¼ ¨ ©´!"
+   "¥ ¬¬, ´ ­ ¼¸!"
+   "¥ ¬¬, ´ ­ ¼¸!"
+
+   IFRAME:
+   //kitweb.tadapi.info/network/adapi.php?a=babytimes_p_at_r_a03_300x250&r
+   efercheck=101
+
+   ë² ìU9D´ë¹U84íU83U80ìU9EU84ì¦U88
+    ¸¬ °¬´  ¸ ¸   ¸´¨©¨ ­´¸ ´¼´¨° RSS
+
+
+     * ¸¹ ±¬¬    13¸ 25 ´¤´¬° 2¨ 408¸
+     * : 070-7756-6500
+     * ­´¸ : ­
+     * ¸ : (JU) ´
+     * ¸ :  ´
+     * ±¸ : ¸ ¤ 10520
+     * ±¼ : 2012-09-18
+     * ¼ : 2012-10-02
+     * ¸ : ¡ 
+     * ¸¸ : ¡ 
+     *  ´ ¨   (,°¬, ¬) ´¸¼ , ´¨ ¬ µ¬, °¬ ± ©¤.
+     * Copyright © 2022  ´. All rights reserved. mail to
+       bbtimes@babytimes.co.kr
+
+   NDìU86U8CíU94U84íU8A¸
+   (BUTTON)
